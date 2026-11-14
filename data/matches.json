@@ -1,0 +1,2928 @@
+[
+ {
+  "id": "tvf-national-2026-08-07-turkiye-tayland",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Group A",
+  "home": "Türkiye",
+  "away": "Tayland",
+  "date": "2026-08-07",
+  "time": "00:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-07-turkiye-amerika-birlesik-devletleri",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Group A",
+  "home": "Türkiye",
+  "away": "Amerika Birleşik Devletleri",
+  "date": "2026-08-07",
+  "time": "21:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "0-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-08-turkiye-misir",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Group A",
+  "home": "Türkiye",
+  "away": "Mısır",
+  "date": "2026-08-08",
+  "time": "21:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-11-turkiye-cekya",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Group A",
+  "home": "Türkiye",
+  "away": "Çekya",
+  "date": "2026-08-11",
+  "time": "00:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-13-turkiye-japonya",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Round of 32",
+  "home": "Türkiye",
+  "away": "Japonya",
+  "date": "2026-08-13",
+  "time": "00:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-14-turkiye-guney-kore",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Quarterfinal",
+  "home": "Türkiye",
+  "away": "Güney Kore",
+  "date": "2026-08-14",
+  "time": "03:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "3-1",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-15-tayvan-turkiye",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Semifinal",
+  "home": "Tayvan",
+  "away": "Türkiye",
+  "date": "2026-08-15",
+  "time": "03:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "0-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-16-amerika-birlesik-devletleri-turkiye",
+  "feed": "national",
+  "competition": "World Championship",
+  "stage": "Final",
+  "home": "Amerika Birleşik Devletleri",
+  "away": "Türkiye",
+  "date": "2026-08-16",
+  "time": "02:00",
+  "venue": "Santiago-National Stadium Park",
+  "city": "Şili",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-19-turkiye-bulgaristan",
+  "feed": "national",
+  "competition": "Balkan Cup",
+  "stage": "Group B",
+  "home": "Türkiye",
+  "away": "Bulgaristan",
+  "date": "2026-08-19",
+  "time": "15:30",
+  "venue": "Mostar-Sportska Dvorana Bijeli Brijeg",
+  "city": "Bosna Hersek",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-20-kuzey-makedonya-turkiye",
+  "feed": "national",
+  "competition": "Mediterranean Games",
+  "stage": "Group B",
+  "home": "Kuzey Makedonya",
+  "away": "Türkiye",
+  "date": "2026-08-20",
+  "time": "18:00",
+  "venue": "Taranto-Palamazzola",
+  "city": "İtalya",
+  "tv": "TRT Spor Yıldız",
+  "result": "0-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-20-turkiye-sirbistan",
+  "feed": "national",
+  "competition": "Balkan Cup",
+  "stage": "Group B",
+  "home": "Türkiye",
+  "away": "Sırbistan",
+  "date": "2026-08-20",
+  "time": "18:00",
+  "venue": "Mostar-Sportska Dvorana Bijeli Brijeg",
+  "city": "Bosna Hersek",
+  "tv": "",
+  "result": "1-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-21-rusya-turkiye",
+  "feed": "national",
+  "competition": "Balkan Cup",
+  "stage": "Group B",
+  "home": "Rusya",
+  "away": "Türkiye",
+  "date": "2026-08-21",
+  "time": "18:00",
+  "venue": "Mostar-Sportska Dvorana Bijeli Brijeg",
+  "city": "Bosna Hersek",
+  "tv": "",
+  "result": "2-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-21-turkiye-letonya",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Group A",
+  "home": "Türkiye",
+  "away": "Letonya",
+  "date": "2026-08-21",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT 1",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-22-belarus-turkiye",
+  "feed": "national",
+  "competition": "Balkan Cup",
+  "stage": "Semifinal",
+  "home": "Belarus",
+  "away": "Türkiye",
+  "date": "2026-08-22",
+  "time": "18:00",
+  "venue": "Mostar-Sportska Dvorana Bijeli Brijeg",
+  "city": "Bosna Hersek",
+  "tv": "",
+  "result": "3-1",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-23-turkiye-romanya",
+  "feed": "national",
+  "competition": "Balkan Cup",
+  "stage": "3rd place match",
+  "home": "Türkiye",
+  "away": "Romanya",
+  "date": "2026-08-23",
+  "time": "18:00",
+  "venue": "Mostar-Sportska Dvorana Bijeli Brijeg",
+  "city": "Bosna Hersek",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-23-slovenya-turkiye",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Group A",
+  "home": "Slovenya",
+  "away": "Türkiye",
+  "date": "2026-08-23",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT 1",
+  "result": "1-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-24-cezayir-turkiye",
+  "feed": "national",
+  "competition": "Mediterranean Games",
+  "stage": "Group B",
+  "home": "Cezayir",
+  "away": "Türkiye",
+  "date": "2026-08-24",
+  "time": "15:00",
+  "venue": "Taranto-Palamazzola",
+  "city": "İtalya",
+  "tv": "",
+  "result": "0-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-24-turkiye-macaristan",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Group A",
+  "home": "Türkiye",
+  "away": "Macaristan",
+  "date": "2026-08-24",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-26-turkiye-kosova",
+  "feed": "national",
+  "competition": "Mediterranean Games",
+  "stage": "Group B",
+  "home": "Türkiye",
+  "away": "Kosova",
+  "date": "2026-08-26",
+  "time": "15:00",
+  "venue": "Taranto-Palamazzola",
+  "city": "İtalya",
+  "tv": "",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-26-almanya-turkiye",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Group A",
+  "home": "Almanya",
+  "away": "Türkiye",
+  "date": "2026-08-26",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT 1",
+  "result": "1-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-27-turkiye-yunanistan",
+  "feed": "national",
+  "competition": "Mediterranean Games",
+  "stage": "Group B",
+  "home": "Türkiye",
+  "away": "Yunanistan",
+  "date": "2026-08-27",
+  "time": "18:00",
+  "venue": "Taranto-Palamazzola",
+  "city": "İtalya",
+  "tv": "",
+  "result": "3-1",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-28-turkiye-polonya",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Group A",
+  "home": "Türkiye",
+  "away": "Polonya",
+  "date": "2026-08-28",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor",
+  "result": "2-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-29-turkiye-sirbistan",
+  "feed": "national",
+  "competition": "Mediterranean Games",
+  "stage": "Semifinal",
+  "home": "Türkiye",
+  "away": "Sırbistan",
+  "date": "2026-08-29",
+  "time": "12:00",
+  "venue": "Taranto-Palamazzola",
+  "city": "İtalya",
+  "tv": "",
+  "result": "3-1",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-08-30-italya-turkiye",
+  "feed": "national",
+  "competition": "Mediterranean Games",
+  "stage": "Final",
+  "home": "İtalya",
+  "away": "Türkiye",
+  "date": "2026-08-30",
+  "time": "18:00",
+  "venue": "Taranto-Palamazzola",
+  "city": "İtalya",
+  "tv": "",
+  "result": "0-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-09-01-turkiye-azerbaycan",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Round of 16",
+  "home": "Türkiye",
+  "away": "Azerbaycan",
+  "date": "2026-09-01",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT 1",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-09-03-almanya-turkiye",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Quarterfinal",
+  "home": "Almanya",
+  "away": "Türkiye",
+  "date": "2026-09-03",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT 1",
+  "result": "1-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-09-05-turkiye-sirbistan",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Semifinal",
+  "home": "Türkiye",
+  "away": "Sırbistan",
+  "date": "2026-09-05",
+  "time": "16:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT 1",
+  "result": "3-0",
+  "teams": []
+ },
+ {
+  "id": "tvf-national-2026-09-06-italya-turkiye",
+  "feed": "national",
+  "competition": "European Championship",
+  "stage": "Final",
+  "home": "İtalya",
+  "away": "Türkiye",
+  "date": "2026-09-06",
+  "time": "19:00",
+  "venue": "Sinan Erdem Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT 1",
+  "result": "2-3",
+  "teams": []
+ },
+ {
+  "id": "tvf-kvk26-gr001",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 1",
+  "home": "Aras Kargo",
+  "away": "Göztepe Yuppo",
+  "date": "2026-09-27",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV-Tabii Spor",
+  "result": "3-0",
+  "teams": [
+   "Aras Kargo",
+   "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr003",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 3",
+  "home": "Türk Hava Yolları",
+  "away": "Kuzeyboru",
+  "date": "2026-09-27",
+  "time": "16:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TRT Spor",
+  "result": "3-0",
+  "teams": [
+   "Türk Hava Yolları",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr002",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 2",
+  "home": "Nilüfer Belediyespor Eker",
+  "away": "Beşiktaş",
+  "date": "2026-09-27",
+  "time": "19:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TRT Spor",
+  "result": "3-2",
+  "teams": [
+   "Nilüfer Belediyespor Eker",
+   "Beşiktaş"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr006",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 3",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Türk Hava Yolları",
+  "date": "2026-09-28",
+  "time": "16:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TRT Spor Yıldız",
+  "result": "0-3",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr004",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 1",
+  "home": "İlbank",
+  "away": "Aras Kargo",
+  "date": "2026-09-28",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-2",
+  "teams": [
+   "İlbank",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr005",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 2",
+  "home": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-09-28",
+  "time": "19:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV-Tabii Spor",
+  "result": "1-3",
+  "teams": [
+   "Sinnada Hotels Afyon Belediye Yüntaş",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr009",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 3",
+  "home": "Kuzeyboru",
+  "away": "Manisa Büyükşehir Belediye Spor",
+  "date": "2026-09-29",
+  "time": "16:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-2",
+  "teams": [
+   "Kuzeyboru",
+   "Manisa Büyükşehir Belediye Spor"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr007",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 1",
+  "home": "Göztepe Yuppo",
+  "away": "İlbank",
+  "date": "2026-09-29",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV-Tabii Spor",
+  "result": "3-0",
+  "teams": [
+   "Göztepe Yuppo",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-gr008",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Group 2",
+  "home": "Beşiktaş",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-09-29",
+  "time": "19:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-1",
+  "teams": [
+   "Beşiktaş",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le004",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 1",
+  "home": "Vakıfbank",
+  "away": "Beşiktaş",
+  "date": "2026-10-03",
+  "time": "14:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "İstanbul",
+  "tv": "TRT Spor",
+  "result": "3-1",
+  "teams": [
+   "Vakıfbank",
+   "Beşiktaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le005",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 1",
+  "home": "Nilüfer Belediyespor Eker",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-10-03",
+  "time": "16:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TVF Voleybol TV",
+  "result": "2-3",
+  "teams": [
+   "Nilüfer Belediyespor Eker",
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le002",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 1",
+  "home": "Fenerbahçe Medicana",
+  "away": "Manisa Büyükşehir Belediye Spor",
+  "date": "2026-10-04",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Fenerbahçe Medicana",
+   "Manisa Büyükşehir Belediye Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le001",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 1",
+  "home": "Kuzeyboru",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-10-04",
+  "time": "14:00",
+  "venue": "Aksaray Spor Salonu",
+  "city": "Aksaray",
+  "tv": "TVF Voleybol TV",
+  "result": "2-3",
+  "teams": [
+   "Kuzeyboru",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le006",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 1",
+  "home": "İlbank",
+  "away": "Göztepe Yuppo",
+  "date": "2026-10-04",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "İlbank",
+   "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le007",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 1",
+  "home": "Aras Kargo",
+  "away": "Zeren Spor",
+  "date": "2026-10-04",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Aras Kargo",
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le003",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 1",
+  "home": "Türk Hava Yolları",
+  "away": "Galatasaray Daikin",
+  "date": "2026-10-04",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor",
+  "result": "3-2",
+  "teams": [
+   "Türk Hava Yolları",
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-skk26-fnl01",
+  "feed": "cups",
+  "competition": "Super Cup",
+  "stage": "Final",
+  "home": "Vakıfbank",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-10-06",
+  "time": "18:00",
+  "venue": "Antalya Spor Salonu",
+  "city": "Antalya",
+  "tv": "TRT Spor",
+  "result": "3-2",
+  "teams": [
+   "Vakıfbank",
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le011",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 2",
+  "home": "Galatasaray Daikin",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-10-11",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "Galatasaray Daikin",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le009",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 2",
+  "home": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "away": "Türk Hava Yolları",
+  "date": "2026-10-11",
+  "time": "15:00",
+  "venue": "Prof. Dr. Veysel Eroğlu Spor Salonu",
+  "city": "Afyonkarahisar",
+  "tv": "TVF Voleybol TV",
+  "result": "1-3",
+  "teams": [
+   "Sinnada Hotels Afyon Belediye Yüntaş",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le008",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 2",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Kuzeyboru",
+  "date": "2026-10-11",
+  "time": "16:00",
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le012",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 2",
+  "home": "Göztepe Yuppo",
+  "away": "Vakıfbank",
+  "date": "2026-10-11",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "0-3",
+  "teams": [
+   "Göztepe Yuppo",
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le013",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 2",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Aras Kargo",
+  "date": "2026-10-11",
+  "time": "16:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-0",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le014",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 2",
+  "home": "Zeren Spor",
+  "away": "İlbank",
+  "date": "2026-10-11",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "Zeren Spor",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le010",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 2",
+  "home": "Beşiktaş",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-10-11",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "2-3",
+  "teams": [
+   "Beşiktaş",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le015",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 3",
+  "home": "Kuzeyboru",
+  "away": "Türk Hava Yolları",
+  "date": "2026-10-14",
+  "time": "14:00",
+  "venue": "Aksaray Spor Salonu",
+  "city": "Aksaray",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "Kuzeyboru",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le019",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 3",
+  "home": "Aras Kargo",
+  "away": "Galatasaray Daikin",
+  "date": "2026-10-14",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-2",
+  "teams": [
+   "Aras Kargo",
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le017",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 3",
+  "home": "Nilüfer Belediyespor Eker",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-10-14",
+  "time": "18:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Nilüfer Belediyespor Eker",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le016",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 3",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Beşiktaş",
+  "date": "2026-10-14",
+  "time": "19:00",
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TVF Voleybol TV",
+  "result": "1-3",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Beşiktaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le020",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 3",
+  "home": "Vakıfbank",
+  "away": "Zeren Spor",
+  "date": "2026-10-14",
+  "time": "19:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Vakıfbank",
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le021",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 3",
+  "home": "İlbank",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-10-14",
+  "time": "19:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "0-3",
+  "teams": [
+   "İlbank",
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le022",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 4",
+  "home": "Beşiktaş",
+  "away": "Kuzeyboru",
+  "date": "2026-10-18",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "2-3",
+  "teams": [
+   "Beşiktaş",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le025",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 4",
+  "home": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "away": "Aras Kargo",
+  "date": "2026-10-18",
+  "time": "15:00",
+  "venue": "Prof. Dr. Veysel Eroğlu Spor Salonu",
+  "city": "Afyonkarahisar",
+  "tv": "TVF Voleybol TV",
+  "result": "1-3",
+  "teams": [
+   "Sinnada Hotels Afyon Belediye Yüntaş",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le026",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 4",
+  "home": "Zeren Spor",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-10-18",
+  "time": "15:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TRT Spor Yıldız",
+  "result": "0-3",
+  "teams": [
+   "Zeren Spor",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le023",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 4",
+  "home": "Türk Hava Yolları",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-10-18",
+  "time": "16:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "Türk Hava Yolları",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le024",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 4",
+  "home": "Göztepe Yuppo",
+  "away": "Manisa Büyükşehir Belediye Spor",
+  "date": "2026-10-18",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Göztepe Yuppo",
+   "Manisa Büyükşehir Belediye Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le028",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 4",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Vakıfbank",
+  "date": "2026-10-18",
+  "time": "18:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "2-3",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le027",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 4",
+  "home": "Galatasaray Daikin",
+  "away": "İlbank",
+  "date": "2026-10-18",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "Galatasaray Daikin",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le030",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 5",
+  "home": "Beşiktaş",
+  "away": "Göztepe Yuppo",
+  "date": "2026-10-25",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "1-3",
+  "teams": [
+   "Beşiktaş",
+   "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le029",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 5",
+  "home": "Kuzeyboru",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-10-25",
+  "time": "14:00",
+  "venue": "Aksaray Spor Salonu",
+  "city": "Aksaray",
+  "tv": "TVF Voleybol TV",
+  "result": "3-2",
+  "teams": [
+   "Kuzeyboru",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le035",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 5",
+  "home": "Vakıfbank",
+  "away": "Galatasaray Daikin",
+  "date": "2026-10-25",
+  "time": "14:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-0",
+  "teams": [
+   "Vakıfbank",
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le031",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 5",
+  "home": "Aras Kargo",
+  "away": "Türk Hava Yolları",
+  "date": "2026-10-25",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "1-3",
+  "teams": [
+   "Aras Kargo",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le032",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 5",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Zeren Spor",
+  "date": "2026-10-25",
+  "time": "16:00",
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TVF Voleybol TV",
+  "result": "2-3",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le033",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 5",
+  "home": "İlbank",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-10-25",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "İlbank",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le034",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 5",
+  "home": "Fenerbahçe Medicana",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-10-25",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-1",
+  "teams": [
+   "Fenerbahçe Medicana",
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le041",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 6",
+  "home": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "away": "Vakıfbank",
+  "date": "2026-11-01",
+  "time": "15:00",
+  "venue": "Prof. Dr. Veysel Eroğlu Spor Salonu",
+  "city": "Afyonkarahisar",
+  "tv": "TVF Voleybol TV",
+  "result": "1-3",
+  "teams": [
+   "Sinnada Hotels Afyon Belediye Yüntaş",
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le036",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 6",
+  "home": "Göztepe Yuppo",
+  "away": "Kuzeyboru",
+  "date": "2026-11-01",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "3-1",
+  "teams": [
+   "Göztepe Yuppo",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le037",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 6",
+  "home": "Nilüfer Belediyespor Eker",
+  "away": "Aras Kargo",
+  "date": "2026-11-01",
+  "time": "16:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TVF Voleybol TV",
+  "result": "2-3",
+  "teams": [
+   "Nilüfer Belediyespor Eker",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le038",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 6",
+  "home": "Zeren Spor",
+  "away": "Beşiktaş",
+  "date": "2026-11-01",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "2-3",
+  "teams": [
+   "Zeren Spor",
+   "Beşiktaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le039",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 6",
+  "home": "Türk Hava Yolları",
+  "away": "İlbank",
+  "date": "2026-11-01",
+  "time": "16:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Türk Hava Yolları",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le040",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 6",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Manisa Büyükşehir Belediye Spor",
+  "date": "2026-11-01",
+  "time": "16:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV-Tabii Spor",
+  "result": "3-0",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Manisa Büyükşehir Belediye Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le042",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 6",
+  "home": "Galatasaray Daikin",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-11-01",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "0-3",
+  "teams": [
+   "Galatasaray Daikin",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le048",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 7",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Galatasaray Daikin",
+  "date": "2026-11-04",
+  "time": "16:30",
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TRT Spor Yıldız",
+  "result": "0-3",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le044",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 7",
+  "home": "Göztepe Yuppo",
+  "away": "Zeren Spor",
+  "date": "2026-11-04",
+  "time": "17:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "3-2",
+  "teams": [
+   "Göztepe Yuppo",
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le043",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 7",
+  "home": "Kuzeyboru",
+  "away": "Aras Kargo",
+  "date": "2026-11-04",
+  "time": "18:00",
+  "venue": "Aksaray Spor Salonu",
+  "city": "Aksaray",
+  "tv": "TVF Voleybol TV",
+  "result": "3-2",
+  "teams": [
+   "Kuzeyboru",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le046",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 7",
+  "home": "Beşiktaş",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-11-04",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "0-3",
+  "teams": [
+   "Beşiktaş",
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le047",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 7",
+  "home": "Vakıfbank",
+  "away": "Türk Hava Yolları",
+  "date": "2026-11-04",
+  "time": "19:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV-Tabii Spor",
+  "result": "3-0",
+  "teams": [
+   "Vakıfbank",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le049",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 7",
+  "home": "Fenerbahçe Medicana",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-11-05",
+  "time": "14:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Fenerbahçe Medicana",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le045",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 7",
+  "home": "İlbank",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-11-05",
+  "time": "19:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TRT Spor Yıldız",
+  "result": "0-3",
+  "teams": [
+   "İlbank",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le054",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 8",
+  "home": "Galatasaray Daikin",
+  "away": "Beşiktaş",
+  "date": "2026-11-08",
+  "time": "14:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-1",
+  "teams": [
+   "Galatasaray Daikin",
+   "Beşiktaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le052",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 8",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Göztepe Yuppo",
+  "date": "2026-11-08",
+  "time": "15:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le056",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 8",
+  "home": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "away": "Manisa Büyükşehir Belediye Spor",
+  "date": "2026-11-08",
+  "time": "15:00",
+  "venue": "Prof. Dr. Veysel Eroğlu Spor Salonu",
+  "city": "Afyonkarahisar",
+  "tv": "TVF Voleybol TV",
+  "result": "3-2",
+  "teams": [
+   "Sinnada Hotels Afyon Belediye Yüntaş",
+   "Manisa Büyükşehir Belediye Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le050",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 8",
+  "home": "Zeren Spor",
+  "away": "Kuzeyboru",
+  "date": "2026-11-08",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "0-3",
+  "teams": [
+   "Zeren Spor",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le051",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 8",
+  "home": "Aras Kargo",
+  "away": "İlbank",
+  "date": "2026-11-08",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "3-0",
+  "teams": [
+   "Aras Kargo",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le053",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 8",
+  "home": "Nilüfer Belediyespor Eker",
+  "away": "Vakıfbank",
+  "date": "2026-11-08",
+  "time": "16:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TVF Voleybol TV",
+  "result": "0-3",
+  "teams": [
+   "Nilüfer Belediyespor Eker",
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le055",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 8",
+  "home": "Türk Hava Yolları",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-11-08",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "0-3",
+  "teams": [
+   "Türk Hava Yolları",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-cf001",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Quarterfinal",
+  "home": "Vakıfbank",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-11-12",
+  "time": "18:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "3-1",
+  "teams": [
+   "Vakıfbank",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le061",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 9",
+  "home": "Fenerbahçe Medicana",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-11-15",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le058",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 9",
+  "home": "Zeren Spor",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-11-15",
+  "time": "14:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Zeren Spor",
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le059",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 9",
+  "home": "Vakıfbank",
+  "away": "Aras Kargo",
+  "date": "2026-11-15",
+  "time": "14:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Vakıfbank",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le060",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 9",
+  "home": "Göztepe Yuppo",
+  "away": "Galatasaray Daikin",
+  "date": "2026-11-15",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TRT Spor",
+  "result": "",
+  "teams": [
+   "Göztepe Yuppo",
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le063",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 9",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Türk Hava Yolları",
+  "date": "2026-11-15",
+  "time": "16:00",
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le057",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 9",
+  "home": "Kuzeyboru",
+  "away": "İlbank",
+  "date": "2026-11-15",
+  "time": "17:00",
+  "venue": "Aksaray Spor Salonu",
+  "city": "Aksaray",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Kuzeyboru",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le062",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 9",
+  "home": "Beşiktaş",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-11-15",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Beşiktaş",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-cf003",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Quarterfinal",
+  "home": "Fenerbahçe Medicana",
+  "away": "Türk Hava Yolları",
+  "date": "2026-11-18",
+  "time": "16:30",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-cf004",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Quarterfinal",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Aras Kargo",
+  "date": "2026-11-18",
+  "time": "19:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV-Tabii Spor",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-kvk26-cf002",
+  "feed": "cups",
+  "competition": "Kupa Voley",
+  "stage": "Quarterfinal",
+  "home": "Zeren Spor",
+  "away": "Galatasaray Daikin",
+  "date": "2026-11-19",
+  "time": "19:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Zeren Spor",
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le064",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Kuzeyboru",
+  "date": "2026-11-21",
+  "time": "14:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le067",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "Aras Kargo",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-11-21",
+  "time": "15:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Aras Kargo",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le066",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "Galatasaray Daikin",
+  "away": "Zeren Spor",
+  "date": "2026-11-22",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin",
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le068",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "away": "Göztepe Yuppo",
+  "date": "2026-11-22",
+  "time": "15:00",
+  "venue": "Prof. Dr. Veysel Eroğlu Spor Salonu",
+  "city": "Afyonkarahisar",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Sinnada Hotels Afyon Belediye Yüntaş",
+   "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le065",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "İlbank",
+  "away": "Vakıfbank",
+  "date": "2026-11-22",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "İlbank",
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le069",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "Nilüfer Belediyespor Eker",
+  "away": "Manisa Büyükşehir Belediye Spor",
+  "date": "2026-11-22",
+  "time": "16:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Nilüfer Belediyespor Eker",
+   "Manisa Büyükşehir Belediye Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le070",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "Türk Hava Yolları",
+  "away": "Beşiktaş",
+  "date": "2026-11-22",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Türk Hava Yolları",
+   "Beşiktaş"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-37",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool C",
+  "home": "Fenerbahçe Medicana",
+  "away": "Vasas Obuda Budapest (HUN)",
+  "date": "2026-11-24",
+  "time": "19:00",
+  "venue": "Burhan Felek Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-50",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool D",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Tent Obrenovac (SRB)",
+  "date": "2026-11-24",
+  "time": "19:00",
+  "venue": "Eczacıbaşı Spor Salonu",
+  "city": "İstanbul",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-cup-ccw-23",
+  "feed": "europe",
+  "competition": "CEV Cup",
+  "stage": "Round of 32",
+  "home": "OK Herceg Novi (MNE)",
+  "away": "Zeren Spor",
+  "date": "2026-11-24",
+  "time": null,
+  "venue": "Herceg Novi-Sportski Sentar Igalo",
+  "city": "Karadağ",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-13",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool A",
+  "home": "Vakıfbank",
+  "away": "Asterix Avo BEVEREN",
+  "date": "2026-11-25",
+  "time": "19:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-challenge-cup-chcw-69",
+  "feed": "europe",
+  "competition": "CEV Challenge Cup",
+  "stage": "Round of 32",
+  "home": "Zaon Kifissia 1962 (GRE)",
+  "away": "Aras Kargo",
+  "date": "2026-11-25",
+  "time": "20:00",
+  "venue": "Atina-Zirineio Sport Hall",
+  "city": "Yunanistan",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-61",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool E",
+  "home": "PGE Budowlani Lodz (POL)",
+  "away": "Galatasaray Daikin",
+  "date": "2026-11-25",
+  "time": "20:00",
+  "venue": "Lodz-Lodz Sport Arena",
+  "city": "Polonya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le071",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Kuzeyboru",
+  "away": "Vakıfbank",
+  "date": "2026-11-28",
+  "time": "14:00",
+  "venue": "Aksaray Spor Salonu",
+  "city": "Aksaray",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Kuzeyboru",
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le073",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Fenerbahçe Medicana",
+  "away": "İlbank",
+  "date": "2026-11-29",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le074",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Zeren Spor",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-11-29",
+  "time": "14:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Zeren Spor",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le075",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Aras Kargo",
+  "date": "2026-11-29",
+  "time": "16:00",
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le076",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Göztepe Yuppo",
+  "away": "Türk Hava Yolları",
+  "date": "2026-11-29",
+  "time": "17:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Göztepe Yuppo",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le072",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Galatasaray Daikin",
+  "date": "2026-11-29",
+  "time": "18:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le077",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Beşiktaş",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-11-29",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Beşiktaş",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-15",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool A",
+  "home": "Volley Mulhouse Alsace",
+  "away": "Vakıfbank",
+  "date": "2026-12-01",
+  "time": "21:00",
+  "venue": "",
+  "city": "Fransa",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-challenge-cup-chcw70",
+  "feed": "europe",
+  "competition": "CEV Challenge Cup",
+  "stage": "Round of 32",
+  "home": "Aras Kargo",
+  "away": "Zaon Kifissia 1962",
+  "date": "2026-12-02",
+  "time": "18:00",
+  "venue": "Atatürk Voleybol Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-cup-ccw-24",
+  "feed": "europe",
+  "competition": "CEV Cup",
+  "stage": "Round of 32",
+  "home": "Zeren Spor",
+  "away": "Loser of CLVW 07/08",
+  "date": "2026-12-03",
+  "time": "18:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-64",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool E",
+  "home": "Galatasaray Daikin",
+  "away": "VFB Suhl Thüringen",
+  "date": "2026-12-03",
+  "time": "19:00",
+  "venue": "Burhan Felek Voleybol Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-39",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool C",
+  "home": "Levallois Paris Saint Cloud",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-12-03",
+  "time": "22:00",
+  "venue": "",
+  "city": "Fransa",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le078",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 12",
+  "home": "Galatasaray Daikin",
+  "away": "Kuzeyboru",
+  "date": "2026-12-06",
+  "time": "16:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le083",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 12",
+  "home": "Aras Kargo",
+  "away": "Beşiktaş",
+  "date": "2026-12-06",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Aras Kargo",
+   "Beşiktaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le081",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 12",
+  "home": "İlbank",
+  "away": "Manisa Büyükşehir Belediye Spor",
+  "date": "2026-12-06",
+  "time": "16:30",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "İlbank",
+   "Manisa Büyükşehir Belediye Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le082",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 12",
+  "home": "Türk Hava Yolları",
+  "away": "Zeren Spor",
+  "date": "2026-12-06",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Türk Hava Yolları",
+   "Zeren Spor"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le084",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 12",
+  "home": "Nilüfer Belediyespor Eker",
+  "away": "Göztepe Yuppo",
+  "date": "2026-12-06",
+  "time": "19:00",
+  "venue": "TVF Cengiz Göllü Voleybol Salonu",
+  "city": "Bursa",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Nilüfer Belediyespor Eker",
+   "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le018",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 3",
+  "home": "Fenerbahçe Medicana",
+  "away": "Göztepe Yuppo",
+  "date": "2026-12-08",
+  "time": "14:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana",
+   "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-2026-club-world-championship-1",
+  "feed": "world",
+  "competition": "Club World Championship",
+  "stage": "Pool A",
+  "home": "NEC Red Rockets Kawasaki (JPN)",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-12-08",
+  "time": "16:00",
+  "venue": "Sao Paulo",
+  "city": "Brezilya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-2026-club-world-championship-2",
+  "feed": "world",
+  "competition": "Club World Championship",
+  "stage": "Pool B",
+  "home": "Vakıfbank",
+  "away": "Zhetsu VC (KAZ)",
+  "date": "2026-12-08",
+  "time": "19:30",
+  "venue": "Sao Paulo",
+  "city": "Brezilya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-2026-club-world-championship-5",
+  "feed": "world",
+  "competition": "Club World Championship",
+  "stage": "Pool B",
+  "home": "Vakıfbank",
+  "away": "Al Ahly SC (EGY)",
+  "date": "2026-12-09",
+  "time": "16:00",
+  "venue": "Sao Paulo",
+  "city": "Brezilya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-2026-club-world-championship-8",
+  "feed": "world",
+  "competition": "Club World Championship",
+  "stage": "Pool A",
+  "home": "Osasco Sao Cristovao Saude (BRA)",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2026-12-10",
+  "time": "02:30",
+  "venue": "Sao Paulo",
+  "city": "Brezilya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-2026-club-world-championship-10",
+  "feed": "world",
+  "competition": "Club World Championship",
+  "stage": "Pool A",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Club Alianza Lima (PER)",
+  "date": "2026-12-10",
+  "time": "19:30",
+  "venue": "Sao Paulo",
+  "city": "Brezilya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-world-2026-12-10-vakifbank-sesi-bauru-bra",
+  "feed": "world",
+  "competition": "Club World Championship",
+  "stage": "Pool B",
+  "home": "Vakıfbank",
+  "away": "Sesi Bauru (BRA)",
+  "date": "2026-12-10",
+  "time": "23:00",
+  "venue": "Sao Paulo",
+  "city": "Brezilya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le086",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 13",
+  "home": "Galatasaray Daikin",
+  "away": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "date": "2026-12-12",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin",
+   "Sinnada Hotels Afyon Belediye Yüntaş"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le085",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 13",
+  "home": "Kuzeyboru",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-12-13",
+  "time": "13:00",
+  "venue": "Aksaray Spor Salonu",
+  "city": "Aksaray",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Kuzeyboru",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le089",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 13",
+  "home": "Beşiktaş",
+  "away": "İlbank",
+  "date": "2026-12-13",
+  "time": "16:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Beşiktaş",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le090",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 13",
+  "home": "Zeren Spor",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-12-13",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Zeren Spor",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le091",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 13",
+  "home": "Göztepe Yuppo",
+  "away": "Aras Kargo",
+  "date": "2026-12-13",
+  "time": "17:30",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Göztepe Yuppo",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-66",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool E",
+  "home": "Galatasaray Daikin",
+  "away": "C.S.O. Voluntari 2005",
+  "date": "2026-12-15",
+  "time": "19:00",
+  "venue": "Burhan Felek Voleybol Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-23",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool A",
+  "home": "Vakıfbank",
+  "away": "UNI Opole",
+  "date": "2026-12-17",
+  "time": "19:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-53",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool D",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Savino Del Bene Scandicci",
+  "date": "2026-12-17",
+  "time": "20:00",
+  "venue": "Eczacıbaşı Spor Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-41",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool C",
+  "home": "Numia Vero Volley Milano",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-12-17",
+  "time": "22:30",
+  "venue": "",
+  "city": "İtalya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le092",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 14",
+  "home": "Sinnada Hotels Afyon Belediye Yüntaş",
+  "away": "Kuzeyboru",
+  "date": "2026-12-20",
+  "time": "13:00",
+  "venue": "Prof. Dr. Veysel Eroğlu Spor Salonu",
+  "city": "Afyonkarahisar",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Sinnada Hotels Afyon Belediye Yüntaş",
+   "Kuzeyboru"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le095",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 14",
+  "home": "Beşiktaş",
+  "away": "Vakıfbank",
+  "date": "2026-12-20",
+  "time": "13:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Beşiktaş",
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le093",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 14",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-12-20",
+  "time": "16:00",
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le097",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 14",
+  "home": "Göztepe Yuppo",
+  "away": "İlbank",
+  "date": "2026-12-20",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Göztepe Yuppo",
+   "İlbank"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le098",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 14",
+  "home": "Zeren Spor",
+  "away": "Aras Kargo",
+  "date": "2026-12-20",
+  "time": "16:00",
+  "venue": "TVF Ziraat Bankkart Voleybol Salonu",
+  "city": "Ankara",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Zeren Spor",
+   "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le096",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 14",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Nilüfer Belediyespor Eker",
+  "date": "2026-12-20",
+  "time": "18:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Nilüfer Belediyespor Eker"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le094",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 14",
+  "home": "Galatasaray Daikin",
+  "away": "Türk Hava Yolları",
+  "date": "2026-12-20",
+  "time": "19:00",
+  "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+  "city": "İstanbul",
+  "tv": "TRT Spor Yıldız",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le088",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 13",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Türk Hava Yolları",
+  "date": "2026-12-22",
+  "time": "19:00",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul",
+   "Türk Hava Yolları"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-56",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool D",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Winner of CLVW 11/12",
+  "date": "2027-01-12",
+  "time": "18:00",
+  "venue": "Eczacıbaşı Spor Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-43",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool C",
+  "home": "Fenerbahçe Medicana",
+  "away": "Levallois Paris Saint Cloud",
+  "date": "2027-01-12",
+  "time": "19:00",
+  "venue": "Burhan Felek Voleybol Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-19",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool A",
+  "home": "Vakıfbank",
+  "away": "Volley Mulhouse Alsace",
+  "date": "2027-01-12",
+  "time": "20:00",
+  "venue": "Vakıfbank Spor Sarayı",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-68",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool E",
+  "home": "VFB Suhl Thüringen",
+  "away": "Galatasaray Daikin",
+  "date": "2027-01-13",
+  "time": "21:00",
+  "venue": "",
+  "city": "Almanya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-45",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool C",
+  "home": "Vasas Obuda Budapesşte",
+  "away": "Fenerbahçe Medicana",
+  "date": "2027-01-26",
+  "time": "21:00",
+  "venue": "",
+  "city": "Macaristan",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-58",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool D",
+  "home": "Tent Obrenovac",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2027-01-27",
+  "time": "21:00",
+  "venue": "",
+  "city": "Sırbistan",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-69",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool E",
+  "home": "Galatasaray Daikin",
+  "away": "PGE Budowlani Lodz",
+  "date": "2027-01-28",
+  "time": "19:00",
+  "venue": "Burhan Felek Voleybol Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-47",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool C",
+  "home": "Fenerbahçe Medicana",
+  "away": "Numia Vero Volley Milano",
+  "date": "2027-02-03",
+  "time": "19:00",
+  "venue": "Burhan Felek Voleybol Salonu",
+  "city": "",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-72",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool E",
+  "home": "C.S.O. Voluntari 2005",
+  "away": "Galatasaray Daikin",
+  "date": "2027-02-03",
+  "time": "20:00",
+  "venue": "",
+  "city": "Romanya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-59",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool D",
+  "home": "Savino Del Bene Scandicci",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2027-02-03",
+  "time": "20:30",
+  "venue": "",
+  "city": "İtalya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-17",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool A",
+  "home": "UNI Opole",
+  "away": "Vakıfbank",
+  "date": "2027-02-03",
+  "time": "22:30",
+  "venue": "",
+  "city": "Polonya",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
+  ]
+ }
+]

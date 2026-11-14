@@ -1,0 +1,71 @@
+name: Update calendars
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: calendars-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt pytest
+
+      - name: Test the parsers on saved TVF files
+        run: python -m pytest -q tests
+
+      - name: Fetch latest fixtures from tvf.org.tr
+        id: fetch
+        # If TVF is down or changes its files, keep serving the last good data instead of failing.
+        continue-on-error: true
+        run: python scripts/fetch_tvf.py
+
+      - name: Save updated fixtures
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          if git diff --quiet -- data; then echo "No fixture changes."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Update fixtures from TVF"
+          git push
+
+      - name: Build feeds and page
+        run: python scripts/build.py --out site
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+
+      - name: Warn when the TVF fetch failed
+        if: steps.fetch.outcome == 'failure'
+        run: echo "::warning::Fetching from tvf.org.tr failed; the site was built from the last saved fixtures."
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
