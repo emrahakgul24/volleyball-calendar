@@ -47,7 +47,7 @@ class Match:
         return datetime.fromisoformat(f"{self.date}T{self.time}").replace(tzinfo=ISTANBUL)
 
     @property
-    def sort_key(self) -> tuple:
+    def sort_key(self) -> tuple[str, str, str]:
         return (self.date, self.time or "99:99", self.id)
 
 
@@ -77,7 +77,7 @@ def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
-def squash(text) -> str:
+def squash(text: object) -> str:
     return re.sub(r"\s+", " ", str(text or "")).strip()
 
 

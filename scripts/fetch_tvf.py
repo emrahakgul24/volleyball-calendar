@@ -21,6 +21,7 @@ import urllib.request
 from collections import Counter
 from datetime import date, datetime, time
 from pathlib import Path
+from typing import TypedDict
 from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
 
@@ -87,7 +88,8 @@ def stage_name(kind: str) -> str:
 def fetch(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "tr-TR,tr;q=0.9"})
     with urllib.request.urlopen(req, timeout=60) as resp:
-        return resp.read()
+        data: bytes = resp.read()
+    return data
 
 
 def season_start(today: date | None = None) -> int:
@@ -117,7 +119,7 @@ class Teams:
     """Maps the many spellings of a Turkish club to one display name, keyed by its first word."""
 
     def __init__(self) -> None:
-        self.names: dict[str, Counter] = {}
+        self.names: dict[str, Counter[str]] = {}
 
     @staticmethod
     def key(name: str) -> str:
@@ -145,7 +147,11 @@ def team_display(name: str, teams: Teams) -> str:
 
 # --- genel fikstür -------------------------------------------------------------
 
-def parse_genel(content: bytes) -> tuple[list[dict], Teams]:
+# One spreadsheet row keyed by column name ("date", "home", ...). Cell values are whatever openpyxl
+# returns (str, datetime, time, numbers or None), so they are narrowed where used.
+Row = dict[str, object]
+
+def parse_genel(content: bytes) -> tuple[list[Row], Teams]:
     ws = openpyxl.load_workbook(io.BytesIO(content), read_only=True, data_only=True).worksheets[0]
     rows = ws.iter_rows(values_only=True)
     header = [tr_upper(squash(h)) for h in next(rows)]
@@ -163,23 +169,24 @@ def parse_genel(content: bytes) -> tuple[list[dict], Teams]:
         "kind": col("TÜR"), "group": col("GRUP"), "week": col("HAFTA"), "no": col("NO"),
         "scope": col("MT/KULÜP"),
     }
-    out, teams = [], Teams()
+    out: list[Row] = []
+    teams = Teams()
     for row in rows:
-        r = {k: row[i] if i < len(row) else None for k, i in c.items()}
+        r: Row = {k: row[i] if i < len(row) else None for k, i in c.items()}
         if tr_upper(squash(r["gender"])) != "K" or not isinstance(r["date"], (datetime, date)):
             continue
         r["league"] = tr_upper(squash(r["league"]))
         if r["league"] == "VSL":
-            teams.add(r["home"])
-            teams.add(r["away"])
+            teams.add(squash(r["home"]))
+            teams.add(squash(r["away"]))
         out.append(r)
     return out, teams
 
 
-def genel_matches(rows: list[dict], teams: Teams) -> list[Match]:
-    matches = []
+def genel_matches(rows: list[Row], teams: Teams) -> list[Match]:
+    matches: list[Match] = []
     for r in rows:
-        code, national = r["league"], tr_upper(squash(r["scope"])) == "MT"
+        code, national = squash(r["league"]), tr_upper(squash(r["scope"])) == "MT"
         home, away = squash(r["home"]), squash(r["away"])
         if national:
             if "TÜRKİYE" not in (tr_upper(home), tr_upper(away)):
@@ -190,8 +197,10 @@ def genel_matches(rows: list[dict], teams: Teams) -> list[Match]:
         else:
             continue
 
-        d = r["date"].date() if isinstance(r["date"], datetime) else r["date"]
-        t = r["time"]
+        raw_date = r["date"]
+        assert isinstance(raw_date, date)  # parse_genel only keeps rows with a date
+        d = raw_date.date() if isinstance(raw_date, datetime) else raw_date
+        t: object = r["time"]
         if isinstance(t, datetime):
             t = t.time()
         if isinstance(t, str):
@@ -202,7 +211,7 @@ def genel_matches(rows: list[dict], teams: Teams) -> list[Match]:
         hhmm = t.strftime("%H:%M") if isinstance(t, time) else None
 
         week, group = squash(r["week"]), squash(r["group"])
-        stage = stage_name(r["kind"] or "")
+        stage = stage_name(squash(r["kind"]))
         if code == "VSL" and week:
             stage = f"{stage} - Week {week}" if stage else f"Week {week}"
         elif group and stage in ("", "Group") or (code == "CL" and group):
@@ -210,7 +219,7 @@ def genel_matches(rows: list[dict], teams: Teams) -> list[Match]:
             stage = f"{'Pool' if feed in ('europe', 'world') else 'Group'} {group}"
 
         if national:
-            home_d, away_d, club_teams = pretty(home, True), pretty(away, True), []
+            home_d, away_d, club_teams = pretty(home, True), pretty(away, True), list[str]()
         else:
             home_d, away_d = team_display(home, teams), team_display(away, teams)
             club_teams = [n for n in (teams.canonical(home), teams.canonical(away)) if n]
@@ -224,7 +233,7 @@ def genel_matches(rows: list[dict], teams: Teams) -> list[Match]:
         matches.append(Match(
             id=mid, feed=feed, competition=competition, stage=stage,
             home=home_d, away=away_d, date=d.isoformat(), time=hhmm,
-            venue=pretty(r["venue"] or ""), city=pretty(city, True),
+            venue=pretty(squash(r["venue"])), city=pretty(city, True),
             tv=squash(r["tv"]), result=squash(r["result"]), teams=club_teams,
         ))
     return matches
@@ -261,33 +270,48 @@ def local_to_turkey(d: date, hhmm: str, country: str) -> tuple[date, str]:
     tr = local.astimezone(ISTANBUL)
     return tr.date(), tr.strftime("%H:%M")
 
+Cell = str | float  # xlrd gives text, or a float for numbers and times of day
+
+
+class AvrupaRecord(TypedDict):
+    date: str
+    no: Cell
+    place: list[str]
+    time: Cell
+    teams: str
+    comp: str
+    result: str
+
+
 def parse_avrupa(content: bytes, teams: Teams, season: int) -> list[Match]:
     sheet = xlrd.open_workbook(file_contents=content).sheet_by_index(0)
-    rows = [[squash(v) if not isinstance(v, float) else v for v in sheet.row_values(i)] for i in range(sheet.nrows)]
+    rows: list[list[Cell]] = [[v if isinstance(v, float) else squash(v) for v in sheet.row_values(i)]
+                              for i in range(sheet.nrows)]
 
-    def cell(r, i):
+    def cell(r: list[Cell], i: int) -> Cell:
         return r[i] if i < len(r) else ""
 
-    records, current = [], None
+    records: list[AvrupaRecord] = []
+    current: AvrupaRecord | None = None
     for r in rows[1:]:
         first = cell(r, 0)
         if isinstance(first, str) and re.match(r"^\d{1,2}\.\d{1,2}\.\d{4}$", first) or (
                 isinstance(first, str) and "BELLİ" in tr_upper(first)):
-            current = {"date": first, "no": cell(r, 1), "place": [cell(r, 2)], "time": cell(r, 3),
-                       "teams": cell(r, 4), "comp": "", "result": cell(r, 7)}
+            current = {"date": first, "no": cell(r, 1), "place": [squash(cell(r, 2))], "time": cell(r, 3),
+                       "teams": squash(cell(r, 4)), "comp": "", "result": squash(cell(r, 7))}
             records.append(current)
         elif current is not None:
             if cell(r, 2):
-                current["place"].append(cell(r, 2))
+                current["place"].append(squash(cell(r, 2)))
             if cell(r, 4) and not current["comp"]:
-                current["comp"] = cell(r, 4)
+                current["comp"] = squash(cell(r, 4))
             if cell(r, 7) and not current["result"]:
-                current["result"] = cell(r, 7)
+                current["result"] = squash(cell(r, 7))
 
-    matches = []
+    matches: list[Match] = []
     for rec in records:
         comp = tr_upper(rec["comp"])
-        if "KADIN" not in comp or "BELLİ" in tr_upper(str(rec["date"])):
+        if "KADIN" not in comp or "BELLİ" in tr_upper(rec["date"]):
             continue
         if "ŞAMPİYONLAR LİGİ" in comp:
             feed, competition = "europe", "CEV Champions League"
@@ -310,9 +334,10 @@ def parse_avrupa(content: bytes, teams: Teams, season: int) -> list[Match]:
 
         home, _, away = rec["teams"].partition("-")
         d = datetime.strptime(rec["date"], "%d.%m.%Y").date()
-        hhmm = None
-        if isinstance(rec["time"], float) and 0 <= rec["time"] < 1:
-            minutes = round(rec["time"] * 24 * 60)
+        hhmm: str | None = None
+        t = rec["time"]
+        if isinstance(t, float) and 0 <= t < 1:
+            minutes = round(t * 24 * 60)
             hhmm = f"{minutes // 60:02d}:{minutes % 60:02d}"
         place = squash(" ".join(p for p in rec["place"] if p))
         is_hall = any(w in tr_upper(place) for w in ("SALON", "SARAY", "ARENA", "HALL", "KOMPLEKS"))
@@ -341,7 +366,7 @@ def merge(genel: list[Match], avrupa: list[Match]) -> list[Match]:
     out = [m for m in genel if m.feed not in ("europe", "world")]
     intl = [m for m in genel if m.feed in ("europe", "world")]
 
-    def gap(a: Match, g: Match) -> tuple:
+    def gap(a: Match, g: Match) -> tuple[int, bool]:
         days = abs((date.fromisoformat(a.date) - date.fromisoformat(g.date)).days)
         return (days, a.time != g.time)
 

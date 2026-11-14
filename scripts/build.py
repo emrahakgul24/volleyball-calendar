@@ -12,10 +12,26 @@ import shutil
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from typing import TypedDict
 
 sys.path.insert(0, str(Path(__file__).parent))
 from common import DATA, FEEDS, ISTANBUL, ROOT, Match, load, slugify  # noqa: E402
 from i18n import FEEDS_TR, TEAM_DESC_TR, competition_tr, stage_tr, team_tr  # noqa: E402
+
+class Feed(TypedDict):
+    id: str
+    name: str
+    desc: str
+    name_tr: str
+    desc_tr: str
+    kind: str  # "all", "competition" or "team"
+    count: int
+
+
+class BuildResult(TypedDict):
+    feeds: int
+    matches: int
+
 
 PRODID = "-//volleyball-calendar//Turkish women's volleyball//EN"
 DURATION = timedelta(hours=2)
@@ -30,7 +46,8 @@ def esc(text: str) -> str:
 
 def fold(line: str) -> str:
     """Fold to 75-octet lines as RFC 5545 requires, without splitting a UTF-8 character."""
-    out, current = [], b""
+    out: list[str] = []
+    current = b""
     for ch in line:
         b = ch.encode("utf-8")
         if len(current) + len(b) > (75 if not out else 74):
@@ -95,13 +112,13 @@ def calendar(name: str, desc: str, matches: list[Match], stamp: str, with_compet
 
 # --- site --------------------------------------------------------------------
 
-def build(out: Path, matches: list[Match], now: datetime) -> dict:
+def build(out: Path, matches: list[Match], now: datetime) -> BuildResult:
     if out.exists():
         shutil.rmtree(out)
     (out / "feeds").mkdir(parents=True)
     stamp = utc(now)
 
-    feeds = []
+    feeds: list[Feed] = []
 
     def write(fid: str, name: str, desc: str, ms: list[Match], kind: str, mixed: bool) -> None:
         (out / "feeds" / f"{fid}.ics").write_text(calendar(name, desc, ms, stamp, mixed), encoding="utf-8",
@@ -128,7 +145,7 @@ def build(out: Path, matches: list[Match], now: datetime) -> dict:
     return {"feeds": len(feeds), "matches": len(matches)}
 
 
-def render_page(feeds: list[dict], upcoming: list[Match], now: datetime) -> str:
+def render_page(feeds: list[Feed], upcoming: list[Match], now: datetime) -> str:
     """Fill the template. Every generated text carries its Turkish version in data-tr; the page's script
     swaps between the two when the reader picks a language."""
     template = (ROOT / "site_template" / "index.html").read_text(encoding="utf-8")
@@ -138,7 +155,7 @@ def render_page(feeds: list[dict], upcoming: list[Match], now: datetime) -> str:
         c = f' class="{cls}"' if cls else ""
         return f'<{tag}{c} data-tr="{e(tr)}">{e(en)}</{tag}>'
 
-    def card(f: dict) -> str:
+    def card(f: Feed) -> str:
         return f"""
       <article class="feed" data-feed="{e(f['id'])}" data-name="{e(f['name'])}">
         <div class="feed-head">
