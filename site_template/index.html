@@ -54,7 +54,13 @@
   .match .meta { color: var(--muted); font-size: 13px; }
   .help { color: var(--muted); font-size: 14px; }
   .help li { margin-bottom: 6px; }
-  footer { color: var(--muted); font-size: 13px; padding: 40px 0; }
+  .support { margin-top: 40px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+             padding: 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+  .support p { margin: 0; color: var(--muted); font-size: 14px; flex: 1 1 260px; }
+  .btn.kofi { display: inline-flex; align-items: center; gap: 6px; background: #1f5fbf; border-color: #1f5fbf;
+              color: #ffffff; padding: 8px 14px; font-size: 14px; }
+  .btn.kofi:hover { background: #194fa0; border-color: #194fa0; }
+  footer { color: var(--muted); font-size: 13px; padding: 24px 0 40px; }
   a { color: var(--accent); }
   code { background: var(--chip); padding: 1px 5px; border-radius: 4px; font-size: 13px; word-break: break-all; }
 </style>
@@ -98,6 +104,11 @@
     <li><strong>Anything else:</strong> use <em>Copy link</em> and paste it as a calendar subscription (“From URL”).</li>
     <li>Matches with no announced start time appear as all-day events until the federation publishes the time.</li>
   </ul>
+
+  <aside class="support" aria-label="Support this project">
+    <p>This calendar is free and ad-free. If it helps you follow the matches, you can support it with a coffee.</p>
+    <a class="btn kofi" href="https://ko-fi.com/emrahakgul" target="_blank" rel="noopener">☕ Support on Ko-fi</a>
+  </aside>
 
   <footer>
     Fixtures come from the Turkish Volleyball Federation's published schedules

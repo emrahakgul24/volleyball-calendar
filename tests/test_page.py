@@ -99,3 +99,9 @@ def test_copy_link_copies_the_feed_url(page, site):
     page.click('.feed[data-feed="sultanlar"] button[data-action="copy"]')
     copied = page.evaluate("navigator.clipboard.readText()")
     assert unquote(copied) == f"{site[1]}feeds/sultanlar.ics"
+
+
+def test_ko_fi_button(page):
+    link = page.locator("a.kofi")
+    assert link.get_attribute("href") == "https://ko-fi.com/emrahakgul"
+    assert link.get_attribute("target") == "_blank" and "noopener" in link.get_attribute("rel")
