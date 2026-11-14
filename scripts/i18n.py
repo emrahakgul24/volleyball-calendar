@@ -14,7 +14,7 @@ FEEDS_TR = {
     "cups": ("Türkiye kupaları", "Kupa Voley ve Şampiyonlar Kupası."),
 }
 
-TEAM_DESC_TR = "{team} takımının tüm maçları: lig, kupalar ve Avrupa kupaları."
+TEAM_DESC_TR = "{team} takımının ligde, Türkiye kupalarında ve Avrupa kupalarında oynadığı tüm maçlar."
 
 COMPETITIONS_TR = {
     "CEV Champions League": "CEV Şampiyonlar Ligi",

@@ -193,7 +193,7 @@ def render_page(feeds: list[Feed], upcoming: list[Match], now: datetime) -> str:
           <span class="teams">{t(m.home, team_tr(m.home))} <span class="vs">vs</span> {t(m.away, team_tr(m.away))}</span>
           {t(meta_en, meta_tr, 'span', 'meta')}
         </li>""")
-    empty = f'<li class="empty">{t("No upcoming matches published yet.", "Henüz açıklanmış yaklaşan maç yok.")}</li>'
+    empty = f'<li class="empty">{t("No upcoming matches published yet.", "Yaklaşan maçlar henüz açıklanmadı.")}</li>'
     updated = now.astimezone(ISTANBUL)
     stamp = f'<time data-datetime="{updated.isoformat()}">{updated:%d %b %Y, %H:%M}</time>'
 
