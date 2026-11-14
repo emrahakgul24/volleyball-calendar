@@ -33,16 +33,22 @@ def site(tmp_path_factory):
 
 
 @pytest.fixture(scope="module")
-def page(site):
+def browser():
     with sync_playwright() as p:
-        browser = p.chromium.launch(executable_path=os.environ.get("CHROMIUM_PATH") or None)
-        pg = browser.new_page()
-        errors = []
-        pg.on("pageerror", lambda e: errors.append(str(e)))
-        pg.goto(site[1])
-        yield pg
-        assert not errors, errors
-        browser.close()
+        b = p.chromium.launch(executable_path=os.environ.get("CHROMIUM_PATH") or None)
+        yield b
+        b.close()
+
+
+@pytest.fixture(scope="module")
+def page(site, browser):
+    pg = browser.new_page(locale="en-US")
+    errors = []
+    pg.on("pageerror", lambda e: errors.append(str(e)))
+    pg.goto(site[1])
+    yield pg
+    assert not errors, errors
+    pg.close()
 
 
 def feed_path(site_dir, https_url, base):
@@ -105,3 +111,47 @@ def test_ko_fi_button(page):
     link = page.locator("a.kofi")
     assert link.get_attribute("href") == "https://ko-fi.com/emrahakgul"
     assert link.get_attribute("target") == "_blank" and "noopener" in link.get_attribute("rel")
+
+
+def test_language_picker_switches_to_turkish_and_back(site, browser):
+    pg = browser.new_context(locale="en-US").new_page()
+    errors = []
+    pg.on("pageerror", lambda e: errors.append(str(e)))
+    pg.goto(site[1])
+    assert pg.locator("html").get_attribute("lang") == "en"
+    assert pg.locator("h2").first.inner_text() == "Competitions"
+
+    pg.click('.lang button[data-lang="tr"]')
+    assert pg.locator("html").get_attribute("lang") == "tr"
+    assert pg.title() == "Türk Kadın Voleybolu Takvimi"
+    assert pg.locator("h2").first.inner_text() == "Takvimler"
+    assert pg.locator('.feed[data-feed="sultanlar"] .count').inner_text() == "95 maç"
+    assert pg.locator('.feed[data-feed="europe"] h3').inner_text() == "Avrupa kupaları"
+    assert "Hafta" in pg.locator(".match .meta").first.inner_text()
+    assert pg.locator(".day").first.text_content().startswith(("Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"))
+    assert "Son güncelleme" in pg.locator("footer").inner_text()
+    assert pg.locator('.lang button[data-lang="tr"]').get_attribute("aria-pressed") == "true"
+    # Links don't depend on the language.
+    assert pg.locator('.feed[data-feed="all"] a.apple').get_attribute("href").endswith("/feeds/all.ics")
+
+    pg.reload()  # the choice is remembered
+    assert pg.locator("h2").first.inner_text() == "Takvimler"
+
+    pg.click('.lang button[data-lang="en"]')
+    assert pg.locator("h2").first.inner_text() == "Competitions"
+    assert pg.locator('.feed[data-feed="sultanlar"] .count').inner_text() == "95 matches"
+    assert "Last updated" in pg.locator("footer").inner_text()
+    assert not errors, errors
+    pg.context.close()
+
+
+def test_turkish_browsers_and_lang_parameter_default_to_turkish(site, browser):
+    tr = browser.new_context(locale="tr-TR").new_page()
+    tr.goto(site[1])
+    assert tr.locator("html").get_attribute("lang") == "tr"
+    assert tr.locator("h2").first.inner_text() == "Takvimler"
+    en = browser.new_context(locale="en-US").new_page()
+    en.goto(site[1] + "?lang=tr")
+    assert en.locator("h2").first.inner_text() == "Takvimler"
+    for pg in (tr, en):
+        pg.context.close()
