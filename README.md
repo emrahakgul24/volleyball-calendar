@@ -42,7 +42,7 @@ the same event ID across refreshes, so time changes update the existing event in
 
 `.github/workflows/update.yml` runs every 3 hours and on every push to `main`:
 
-1. runs the tests: parsers on saved copies of the TVF files (`tests/fixtures`), the generated feeds, and the
+1. type-checks the code (`mypy --strict`) and runs the tests: parsers on saved copies of the TVF files (`tests/fixtures`), the generated feeds, and the
    subscribe buttons in a real browser (each must link to an existing feed in Google / Apple / Outlook format),
 2. downloads the latest TVF files; if that fails, the last saved data is used and an issue labelled
    `refresh-failed` is opened (so the repo owner gets an email). It closes itself after the next good refresh,
@@ -61,6 +61,7 @@ fetched match replaces it; a new `id` adds a match (for example a national team 
 ```sh
 pip install -r requirements.txt -r requirements-dev.txt
 python -m playwright install chromium
+python -m mypy                     # strict type check of scripts/ and tests/
 python -m pytest tests
 python scripts/fetch_tvf.py        # needs access to tvf.org.tr
 python scripts/build.py            # writes site/

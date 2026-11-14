@@ -1,2 +1,5 @@
 pytest==8.3.3
 playwright==1.48.0
+mypy==2.4.1
+types-openpyxl==3.1.5.20261017
+types-xlrd==2.0.0.20260518

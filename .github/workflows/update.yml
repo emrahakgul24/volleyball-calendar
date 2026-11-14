@@ -30,6 +30,9 @@ jobs:
       - run: pip install -r requirements.txt -r requirements-dev.txt
       - run: python -m playwright install --with-deps chromium
 
+      - name: Type check (mypy --strict, settings in mypy.ini)
+        run: python -m mypy
+
       - name: Tests (parsers on saved TVF files, feeds, subscribe buttons in a browser)
         run: python -m pytest -q tests
 
