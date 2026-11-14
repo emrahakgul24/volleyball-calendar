@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -26,9 +27,10 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements.txt pytest
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+      - run: python -m playwright install --with-deps chromium
 
-      - name: Test the parsers on saved TVF files
+      - name: Tests (parsers on saved TVF files, feeds, subscribe buttons in a browser)
         run: python -m pytest -q tests
 
       - name: Fetch latest fixtures from tvf.org.tr
@@ -58,6 +60,35 @@ jobs:
       - name: Warn when the TVF fetch failed
         if: steps.fetch.outcome == 'failure'
         run: echo "::warning::Fetching from tvf.org.tr failed; the site was built from the last saved fixtures."
+
+      # On main, a failed refresh opens one issue (GitHub emails the repo owner); the next good refresh closes it.
+      - name: Report a failed refresh
+        if: steps.fetch.outcome == 'failure' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create refresh-failed --color d73a4a --description "Fetching fixtures from TVF failed" 2>/dev/null || true
+          open=$(gh issue list --label refresh-failed --state open --json number --jq '.[0].number')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body "Still failing: $RUN_URL"
+          else
+            gh issue create --label refresh-failed --title "Calendar refresh from TVF is failing" --body "@${{ github.repository_owner }} fetching the fixture spreadsheets from tvf.org.tr failed, so the calendars are being served from the last good data and won't pick up new changes.
+
+          Failed run: $RUN_URL
+
+          Likely causes: tvf.org.tr is down, the spreadsheet moved (new season), or its columns changed. This issue closes itself after the next successful refresh."
+          fi
+
+      - name: Close the failure issue after a good refresh
+        if: steps.fetch.outcome == 'success' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          for n in $(gh issue list --label refresh-failed --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Refresh is working again: $RUN_URL"
+          done
 
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

@@ -40,8 +40,10 @@ the same event ID across refreshes, so time changes update the existing event in
 
 `.github/workflows/update.yml` runs every 3 hours and on every push to `main`:
 
-1. runs the parser tests on saved copies of the TVF files (`tests/fixtures`),
-2. downloads the latest TVF files; if that fails, the last saved data is used and the run shows a warning,
+1. runs the tests: parsers on saved copies of the TVF files (`tests/fixtures`), the generated feeds, and the
+   subscribe buttons in a real browser (each must link to an existing feed in Google / Apple / Outlook format),
+2. downloads the latest TVF files; if that fails, the last saved data is used and an issue labelled
+   `refresh-failed` is opened (so the repo owner gets an email). It closes itself after the next good refresh,
 3. commits `data/matches.json` when fixtures changed,
 4. builds the feeds and deploys them to GitHub Pages.
 
@@ -55,7 +57,8 @@ fetched match replaces it; a new `id` adds a match (for example a national team 
 ## Running locally
 
 ```sh
-pip install -r requirements.txt pytest
+pip install -r requirements.txt -r requirements-dev.txt
+python -m playwright install chromium
 python -m pytest tests
 python scripts/fetch_tvf.py        # needs access to tvf.org.tr
 python scripts/build.py            # writes site/
