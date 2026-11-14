@@ -15,6 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from common import DATA, FEEDS, ISTANBUL, ROOT, Match, load, slugify  # noqa: E402
+from i18n import FEEDS_TR, TEAM_DESC_TR, competition_tr, stage_tr, team_tr  # noqa: E402
 
 PRODID = "-//volleyball-calendar//Turkish women's volleyball//EN"
 DURATION = timedelta(hours=2)
@@ -105,7 +106,9 @@ def build(out: Path, matches: list[Match], now: datetime) -> dict:
     def write(fid: str, name: str, desc: str, ms: list[Match], kind: str, mixed: bool) -> None:
         (out / "feeds" / f"{fid}.ics").write_text(calendar(name, desc, ms, stamp, mixed), encoding="utf-8",
                                                   newline="")
-        feeds.append({"id": fid, "name": name, "desc": desc, "kind": kind, "count": len(ms)})
+        name_tr, desc_tr = FEEDS_TR.get(fid, (name, TEAM_DESC_TR.format(team=name)))
+        feeds.append({"id": fid, "name": name, "desc": desc, "name_tr": name_tr, "desc_tr": desc_tr,
+                      "kind": kind, "count": len(ms)})
 
     write("all", "Turkish women's volleyball", "Sultanlar Ligi, European cups, Club World Championship, "
           "Türkiye national team and Turkish cups in one calendar.", matches, "all", True)
@@ -126,22 +129,28 @@ def build(out: Path, matches: list[Match], now: datetime) -> dict:
 
 
 def render_page(feeds: list[dict], upcoming: list[Match], now: datetime) -> str:
+    """Fill the template. Every generated text carries its Turkish version in data-tr; the page's script
+    swaps between the two when the reader picks a language."""
     template = (ROOT / "site_template" / "index.html").read_text(encoding="utf-8")
     e = html.escape
+
+    def t(en: str, tr: str, tag: str = "span", cls: str = "") -> str:
+        c = f' class="{cls}"' if cls else ""
+        return f'<{tag}{c} data-tr="{e(tr)}">{e(en)}</{tag}>'
 
     def card(f: dict) -> str:
         return f"""
       <article class="feed" data-feed="{e(f['id'])}" data-name="{e(f['name'])}">
         <div class="feed-head">
-          <h3>{e(f['name'])}</h3>
-          <span class="count">{f['count']} matches</span>
+          {t(f['name'], f['name_tr'], 'h3')}
+          {t(f"{f['count']} matches", f"{f['count']} maç", 'span', 'count')}
         </div>
-        <p>{e(f['desc'])}</p>
+        {t(f['desc'], f['desc_tr'], 'p')}
         <div class="actions">
-          <a class="btn google" data-action="google" href="#">Google Calendar</a>
-          <a class="btn apple" data-action="apple" href="#">Apple Calendar</a>
+          <a class="btn google" data-action="google" href="#" data-tr="Google Takvim">Google Calendar</a>
+          <a class="btn apple" data-action="apple" href="#" data-tr="Apple Takvim">Apple Calendar</a>
           <a class="btn outlook" data-action="outlook" href="#">Outlook</a>
-          <button class="btn copy" data-action="copy" type="button">Copy link</button>
+          <button class="btn copy" data-action="copy" type="button" data-tr="Bağlantıyı kopyala">Copy link</button>
         </div>
       </article>"""
 
@@ -156,19 +165,26 @@ def render_page(feeds: list[dict], upcoming: list[Match], now: datetime) -> str:
     for m in upcoming:
         d = date.fromisoformat(m.date)
         if d != last_day:
-            rows.append(f'<li class="day">{d:%a %d %b %Y}</li>')
+            rows.append(f'<li class="day" data-date="{d.isoformat()}">{d:%a %d %b %Y}</li>')
             last_day = d
+        meta_en = " · ".join(x for x in (m.competition, m.stage, m.tv) if x)
+        meta_tr = " · ".join(x for x in (competition_tr(m.competition), stage_tr(m.stage), m.tv) if x)
+        time = e(m.time) if m.time else t("TBA", "Saat belli değil")
         rows.append(f"""<li class="match">
-          <span class="time">{e(m.time or "TBA")}</span>
-          <span class="teams">{e(m.home)} <span class="vs">vs</span> {e(m.away)}</span>
-          <span class="meta">{e(" · ".join(x for x in (m.competition, m.stage, m.tv) if x))}</span>
+          <span class="time">{time}</span>
+          <span class="teams">{t(m.home, team_tr(m.home))} <span class="vs">vs</span> {t(m.away, team_tr(m.away))}</span>
+          {t(meta_en, meta_tr, 'span', 'meta')}
         </li>""")
+    empty = f'<li class="empty">{t("No upcoming matches published yet.", "Henüz açıklanmış yaklaşan maç yok.")}</li>'
+    updated = now.astimezone(ISTANBUL)
+    stamp = f'<time data-datetime="{updated.isoformat()}">{updated:%d %b %Y, %H:%M}</time>'
 
     return (template
             .replace("{{FEED_CARDS}}", "\n".join(card(f) for f in main))
             .replace("{{TEAM_OPTIONS}}", team_options)
-            .replace("{{UPCOMING}}", "\n".join(rows) or '<li class="empty">No upcoming matches published yet.</li>')
-            .replace("{{UPDATED}}", now.astimezone(ISTANBUL).strftime("%d %b %Y, %H:%M")))
+            .replace("{{UPCOMING}}", "\n".join(rows) or empty)
+            .replace("{{UPDATED_TR}}", e(stamp))  # inside an attribute, so escaped
+            .replace("{{UPDATED}}", stamp))
 
 
 def main() -> int:

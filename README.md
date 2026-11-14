@@ -15,7 +15,9 @@ Subscribable calendars for Turkish women's volleyball, hosted on GitHub Pages:
 | `team-<club>.ics` | One per Sultanlar Ligi club (league, cups and Europe) |
 
 The landing page has one-click **Google Calendar**, **Apple Calendar** and **Outlook** buttons for each feed,
-plus a copyable link for any other calendar app. Feed URLs look like
+plus a copyable link for any other calendar app. It's in English and Turkish: readers pick with the EN / TR
+switch in the header, Turkish-language browsers get Turkish by default, and `?lang=tr` links straight to Turkish.
+Page texts live in `site_template/index.html` (`data-tr` attributes), generated labels in `scripts/i18n.py`. Feed URLs look like
 `https://emrahakgul24.github.io/volleyball-calendar/feeds/sultanlar.ics` (use `webcal://` instead of `https://`
 to subscribe from Apple devices).
 

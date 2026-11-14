@@ -70,3 +70,14 @@ def test_build_writes_valid_feeds(tmp_path):
     assert ics.count(b"BEGIN:VEVENT") == len([m for m in ms if m.feed == "sultanlar"])
     assert (tmp_path / "feeds" / "team-vakifbank.ics").exists()
     assert "Google Calendar" in (tmp_path / "index.html").read_text(encoding="utf-8")
+
+
+def test_turkish_labels():
+    from i18n import competition_tr, stage_tr, team_tr
+    assert stage_tr("Week 9") == "9. Hafta"
+    assert stage_tr("Pool C") == "C Grubu"
+    assert stage_tr("Round of 32") == "Son 32"
+    assert stage_tr("Playoffs - Week 3") == "Play-off - 3. Hafta"
+    assert competition_tr("CEV Champions League") == "CEV Şampiyonlar Ligi"
+    assert team_tr("Winner of CLVW 11/12") == "CLVW 11/12 galibi"
+    assert team_tr("Vakıfbank") == "Vakıfbank"
