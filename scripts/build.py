@@ -174,7 +174,8 @@ def render_page(feeds: list[Feed], upcoming: list[Match], now: datetime) -> str:
     main = [f for f in feeds if f["kind"] in ("all", "competition")]
     teams = [f for f in feeds if f["kind"] == "team"]
     team_options = "\n".join(
-        f'<option value="{e(f["id"])}" data-name="{e(f["name"])}">{e(f["name"])} ({f["count"]})</option>'
+        f'<option value="{e(f["id"])}" data-name="{e(f["name"])}" '
+        f'data-tr="{e(f["name"])} ({f["count"]} maç)">{e(f["name"])} ({f["count"]} matches)</option>'
         for f in teams)
 
     rows = []
