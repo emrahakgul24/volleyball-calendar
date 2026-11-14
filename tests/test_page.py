@@ -142,6 +142,7 @@ def test_language_picker_switches_to_turkish_and_back(site: Site, browser: Brows
     assert pg.locator("h2").first.inner_text() == "Takvimler"
     assert pg.locator('.feed[data-feed="sultanlar"] .count').inner_text() == "95 maç"
     assert pg.locator('.feed[data-feed="europe"] h3').inner_text() == "Avrupa kupaları"
+    assert pg.locator('#team option[value="team-aras-kargo"]').inner_text() == "Aras Kargo (19 maç)"
     assert "Hafta" in pg.locator(".match .meta").first.inner_text()
     assert (pg.locator(".day").first.text_content() or "").startswith(("Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"))
     assert "Son güncelleme" in pg.locator("footer").inner_text()
@@ -155,6 +156,7 @@ def test_language_picker_switches_to_turkish_and_back(site: Site, browser: Brows
     pg.click('.lang button[data-lang="en"]')
     assert pg.locator("h2").first.inner_text() == "Competitions"
     assert pg.locator('.feed[data-feed="sultanlar"] .count').inner_text() == "95 matches"
+    assert pg.locator('#team option[value="team-aras-kargo"]').inner_text() == "Aras Kargo (19 matches)"
     assert "Last updated" in pg.locator("footer").inner_text()
     assert not errors, errors
     pg.context.close()
