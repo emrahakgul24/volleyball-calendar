@@ -7,14 +7,14 @@ import re
 FEEDS_TR = {
     "all": ("Türk kadın voleybolu", "Sultanlar Ligi, Avrupa kupaları, Kulüpler Dünya Şampiyonası, "
             "A Milli Kadın Takımı ve Türkiye kupaları tek takvimde."),
-    "sultanlar": ("Sultanlar Ligi", "Kadınlar en üst liginin tüm maçları."),
-    "europe": ("Avrupa kupaları", "Türk takımlarının CEV Şampiyonlar Ligi, CEV Kupası ve Challenge Kupası maçları."),
+    "sultanlar": ("Sultanlar Ligi", "Kadın voleybolunda en üst ligin tüm maçları."),
+    "europe": ("Avrupa kupaları", "Türk takımlarının CEV Şampiyonlar Ligi, CEV Kupası ve CEV Challenge Kupası maçları."),
     "world": ("Kulüpler Dünya Şampiyonası", "Türk takımlarının FIVB Kulüpler Dünya Şampiyonası maçları."),
     "national": ("A Milli Kadın Takımı", "Milletler Ligi, Avrupa ve Dünya Şampiyonaları, Olimpiyatlar ve daha fazlası."),
     "cups": ("Türkiye kupaları", "Kupa Voley ve Şampiyonlar Kupası."),
 }
 
-TEAM_DESC_TR = "{team} takımının tüm maçları: lig, kupalar ve Avrupa."
+TEAM_DESC_TR = "{team} takımının tüm maçları: lig, kupalar ve Avrupa kupaları."
 
 COMPETITIONS_TR = {
     "CEV Champions League": "CEV Şampiyonlar Ligi",
