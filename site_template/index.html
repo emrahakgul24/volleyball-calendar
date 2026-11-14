@@ -20,7 +20,9 @@
          font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
   header { padding: 20px 0 24px; }
-  .lang { display: flex; justify-content: flex-end; gap: 4px; margin-bottom: 20px; }
+  .topbar { display: flex; justify-content: flex-end; align-items: center; gap: 12px; margin-bottom: 20px; }
+  .lang { display: flex; gap: 4px; }
+  .btn.kofi.kofi-top { padding: 5px 12px; font-size: 13px; }
   .lang button { appearance: none; border: 1px solid var(--line); background: var(--surface); color: var(--muted);
                  font: inherit; font-size: 13px; font-weight: 700; padding: 5px 10px; border-radius: 8px; cursor: pointer; }
   .lang button[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
@@ -72,9 +74,12 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="lang" role="group" aria-label="Language / Dil">
-      <button type="button" data-lang="en" aria-pressed="true">EN</button>
-      <button type="button" data-lang="tr" aria-pressed="false">TR</button>
+    <div class="topbar">
+      <a class="btn kofi kofi-top" href="https://ko-fi.com/emrahakgul" target="_blank" rel="noopener" data-tr="☕ Ko-fi'de destek ol">☕ Support on Ko-fi</a>
+      <div class="lang" role="group" aria-label="Language / Dil">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="tr" aria-pressed="false">TR</button>
+      </div>
     </div>
     <h1 data-tr-html="Türk kadın voleybolu, <span>takviminizde</span>">Turkish women's volleyball, <span>in your calendar</span></h1>
     <p data-tr="Sultanlar Ligi, Avrupa kupaları, Kulüpler Dünya Şampiyonası ve Milli Takım. Bir kez abone olun; yeni maçlar, saat değişiklikleri ve sonuçlar takviminize kendiliğinden gelsin. Tüm saatler cihazınızın saat dilimine göre gösterilir.">Sultanlar Ligi, European cups, the Club World Championship and the national team. Subscribe once and new matches,

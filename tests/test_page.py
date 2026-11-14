@@ -107,10 +107,14 @@ def test_copy_link_copies_the_feed_url(page, site):
     assert unquote(copied) == f"{site[1]}feeds/sultanlar.ics"
 
 
-def test_ko_fi_button(page):
-    link = page.locator("a.kofi")
-    assert link.get_attribute("href") == "https://ko-fi.com/emrahakgul"
-    assert link.get_attribute("target") == "_blank" and "noopener" in link.get_attribute("rel")
+def test_ko_fi_buttons(page):
+    links = page.locator("a.kofi")
+    assert links.count() == 2  # header and bottom box
+    assert page.locator("header a.kofi").is_visible()
+    for i in range(links.count()):
+        link = links.nth(i)
+        assert link.get_attribute("href") == "https://ko-fi.com/emrahakgul"
+        assert link.get_attribute("target") == "_blank" and "noopener" in link.get_attribute("rel")
 
 
 def test_language_picker_switches_to_turkish_and_back(site, browser):
