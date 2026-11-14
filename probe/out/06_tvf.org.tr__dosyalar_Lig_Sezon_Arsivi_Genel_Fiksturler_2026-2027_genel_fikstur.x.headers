@@ -1,0 +1,18 @@
+HTTP/2 200 
+date: Sat, 14 Nov 2026 12:43:16 GMT
+content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+content-length: 280142
+server: cloudflare
+last-modified: Fri, 13 Nov 2026 15:02:01 GMT
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+etag: "6af72669-4464e"
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: geolocation=(), microphone=(), camera=()
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xFmH0J8bvjVhG5hasYTzbtAq0C7h87xg6OuKemDDzzjqjVcvujFRRc4%2BfYA%2B4QCKSTDi7LZ9AWPFAGuTE3yR%2FnwYR2KTXfPgBic2ra1PohjdzVDHJe%2FHV3zjsFhN"}]}
+cf-ray: a5a619cfdf05a2d6-LAX
+alt-svc: h3=":443"; ma=86400
+

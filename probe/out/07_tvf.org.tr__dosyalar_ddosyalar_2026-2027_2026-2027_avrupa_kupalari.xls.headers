@@ -1,0 +1,18 @@
+HTTP/2 200 
+date: Sat, 14 Nov 2026 12:43:17 GMT
+content-type: application/vnd.ms-excel
+content-length: 266752
+server: cloudflare
+last-modified: Thu, 12 Nov 2026 11:13:55 GMT
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+etag: "6af59f73-41200"
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: geolocation=(), microphone=(), camera=()
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1nUFA39FhIgPBvySTgEh6VuxFQ%2B3KYv6lden%2Bw7UCrhGwK4DJfvSs7KGfZ5j3TCJ8sPNVBi9qAlewxh9X1Y8WPuUVlRNeCTqllxWUMeQi1Q2PBupnbePtL8QVe9y"}]}
+cf-ray: a5a619d5bba01476-LAX
+alt-svc: h3=":443"; ma=86400
+

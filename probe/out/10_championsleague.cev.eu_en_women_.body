@@ -1,0 +1,1119 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    
+
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/championsleague/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/championsleague/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/championsleague/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/championsleague/site.webmanifest">
+    <link rel="mask-icon" color="#0000ff" href="/assets/img/favicon/championsleague/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/assets/img/favicon/championsleague/favicon.ico">
+
+
+    
+    <title>Women | ChampionsLeague</title>
+    <meta name="description" content="" />
+    <link rel="canonical" href="https://championsleague.cev.eu/en/women/" />
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="/assets/css/utilities.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+<style>.partners-wrapper{display:none!important}</style></head>
+<body data-require="./src/views/body-view" class="u-bg-wild-sand">
+    
+  
+      <script integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <style>
+      #srch-input:focus {
+        outline:none
+       } 
+    </style>
+    <header class="c-nav-primary-header u-bg-white u-text-navy sticky brand--champ" data-require="./src/components/cnav" openedState="false">
+        <div class="container c-nav-primary-header__container">
+            <div class="c-nav-primary-header__inner u-flex u-items-stretch">
+                <a class="primary-header__logo u-py-2 u-flex u-items-center u-no-underline u-mr-5" href="/en/">
+                    <svg class="icon icon-logo" role="img">
+                        <title>ChampionsLeagueVolley Logo</title>
+                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-championsleaguevolley-logo"></use>
+                    </svg>
+                    CEV Champions League Volley 2027
+                </a>
+                <form id="searchBar" class="u-py-2 u-flex u-items-left u-mr-auto" style="border-bottom:1px solid gray; max-width:50%">
+                    <input id="srch-input" style="max-width:90%" type="text" placeholder="Search..." name="searchTerm" />
+                    <input style="display:none" type="text" placeholder="NodeId" value="Champions League" name="siteName" />
+                     <button id="searchBtn" type="submit" data-toggle="modal" data-target="#exampleModal" style="width:20px;opacity:40%"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M470.704 407.906l-2.691-2.689.006-.002-107.514-107.523c14.938-25.733 23.616-55.565 23.82-87.451.626-97.615-77.99-177.243-175.599-177.857l-1.168-.002c-97.06.005-176.067 78.392-176.692 175.598-.618 97.609 77.999 177.236 175.597 177.859.389.002.766.004 1.155.004 32.442 0 62.846-8.79 88.998-24.075L404.035 469.2l.01-.01 2.686 2.686c8.125 8.124 21.293 8.117 29.414 0l34.56-34.554c8.115-8.117 8.121-21.293-.001-29.416zm-263.956-67.135c-72.589-.466-131.271-59.907-130.812-132.502C76.4 136.14 135.45 77.457 207.561 77.453l.88.002c35.167.22 68.144 14.124 92.851 39.148 24.705 25.025 38.188 58.178 37.962 93.352-.222 35.015-14.027 67.893-38.867 92.564-24.834 24.67-57.78 38.252-92.768 38.252h-.871z"></path></svg></button>
+                </form>
+                <div class="c-nav">
+
+                        <ul class="c-nav__list">
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="0">
+
+
+                                    <a class="menuItem" href="/en/" >
+                                        Menu
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-plus u-text-yellow"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-minus u-text-yellow"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                            </a>
+
+
+                                        <div data-menu-slab class="menuSlab">
+                                            <div class="container">
+
+                                                <div class="menuSlab__row">
+
+                                                        <div class="">
+                                                                <a class="title" href="/en/news/" title="News">News</a>
+
+                                                            <ul class="level-1">
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="/en/men/" title="Men">Men</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="/en/men/competition-info/" title="Competition Info">Competition Info</a></li>
+                                                                        <li><a href="/en/men/statistics/" title="Statistics">Statistics</a></li>
+                                                                        <li><a href="/en/men/photos/" title="Photos">Photos</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="/en/women/" title="Women">Women</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="/en/women/competition-info/" title="Competition Info">Competition Info</a></li>
+                                                                        <li><a href="/en/women/statistics/" title="Statistics">Statistics</a></li>
+                                                                        <li><a href="/en/women/photos/" title="Photos">Photos</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                </div>
+
+                                                    <div class="menuSlab__row">
+                                                            <div class="">
+                                                                    <span class="title">
+                                                                        General
+                                                                    </span>
+                                                                <ul class="level-1">
+                                                                            <li><a href="/en/broadcasters/" title="Broadcasters">Broadcasters</a></li>
+                                                                            <li><a href="/en/tickets-media-accreditation/" title="Tickets &amp; Media Accreditation">Tickets &amp; Media Accreditation</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/club/" target="_blank" title="Other Club Competitions">Other Club Competitions</a>
+                                                                <ul class="level-1">
+                                                                            <li><a href="https://cev.eu/club/cev-volleyball-cup/history/2024/men/" title="CEV Cup Men">CEV Cup Men</a></li>
+                                                                            <li><a href="https://cev.eu/club/cev-volleyball-cup/history/2024/women/" title="CEV Cup Women">CEV Cup Women</a></li>
+                                                                            <li><a href="https://cev.eu/club/volleyball-challenge-cup/history/2024/men/" title="Challenge Cup Men">Challenge Cup Men</a></li>
+                                                                            <li><a href="https://cev.eu/club/volleyball-challenge-cup/history/2024/women/" title="Challenge Cup Women">Challenge Cup Women</a></li>
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="1">
+
+
+                                    <a class="menuItem" href="https://cev.eu/" >
+                                        CEV.eu
+                                    </a>
+
+
+
+                                </li>
+                        </ul>
+
+                    <ul data-nav-extra class="c-nav__extra"></ul>
+
+                    <button class="btn-wrapper hidden" data-hamburger>
+                        <span class="btn-burger" data-state="off">Menu</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </header>
+<div id="searchContainer" style="display:none">
+
+</div>
+
+<script type="text/javascript">
+  $('#searchBtn').click(function (e) {
+                e.preventDefault();
+                var formData = $('#searchBar').serialize();
+              
+                $.ajax({
+                    url: '/Search',
+                    type: 'POST',
+                    data: formData,
+                    success: function (response) {
+                        $('#searchContainer').html(response);
+                        $("#searchContainer").css("display", "block");
+                        window.scrollTo({top:0, behavior:"smooth"});
+                    },
+                    error: function (xhr, status, error) {
+                       
+                    }
+                });
+            });
+</script>
+
+
+    
+
+
+<div class="u-bg-wild-sand breadcrumb-wrapper sticky">
+    <div class="container u-flex u-flex-wrap u-items-center u-relative">
+            <ul class="breadcrumbs u-w-full u-py-4 u-list-reset u-gap-y-2 u-flex u-flex-wrap u-uppercase">
+                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://championsleague.cev.eu/en/" target="_self">ChampionsLeagueVolley</a>
+                    </li>
+                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://championsleague.cev.eu/en/women/" target="_self">Women</a>
+                    </li>
+            </ul>
+    </div>
+</div>
+
+    
+
+    <div class="carousel-component  ">
+    <div class="c-hero-carousel u-bg-navy u-z-0 u-w-full u-h-auto  auto-play"
+        data-require="./src/components/hero-carousel">
+        <div class="">
+                    <article class=" u-relative u-w-full u-overflow-hidden">
+                        
+
+<div style="background-image: url(https://webmedia.prod.cev.eu/media/orjhpr3o/hero-generic.jpg?width=1920&amp;height=756&amp;v=1d65f9ae7a91af0);" class="carousel-image-min-height carousel-component__image-slide c-hero-carousel__item u-bg-cover u-flex u-items-center u-text-white u-px-4 u-py-8 md:u-p-16 lg:u-p-24 u-static">
+    <div class="container u-flex u-justify-start u-z-10">
+        <div class="md:u-w-1/2 lg:u-w-2/5 u-max-w-full sm:u-max-w-lg">
+                <img class="u-h-32 u-mb-4" src="https://webmedia.prod.cev.eu/media/ettdyx10/clv27_crest_rgb-150.png?v=1dd233d7f664950" loading="lazy" />
+                <h2 class="u-text-3xl md:u-text-5xl u-leading-none u-max-w-full u-mb-4 u-z-10 u-break-words md:u-break-normal">CEV Champions League Volley 2027 </h2>
+                <p class="u-text-2xl u-mb-4 u-z-10">Women</p>
+
+                <hr class="u-m-0 u-border-yellow u-border-4 u-w-16">
+            <div class="u-inline-block">
+                <div class="swiper-pagination u-h-3 u-relative u-mt-4 u-gap-x-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    </article>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="lg:u-block sub-navigation">
+    
+
+    <div class="container u-py-4 lg:u-py-0 lg:u-relative">
+        
+        <ul class="u-list-reset u-bg-white lg:u-flex lg:u-justify-around lg:u-items-center lg:u-px-10">
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="/en/men/#4th-round" title="Men">Men</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="/en/news/" title="News">News</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://championsleague.cev.eu/en/women/photos/" target="_blank" title="Photos">Photos</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://championsleague.cev.eu/en/women/statistics/" target="_blank" title="Statistics">Statistics</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://championsleague.cev.eu/en/history" target="_blank" title="History">History</a>
+                </li>
+        </ul>
+    </div>
+
+    </div>
+
+    <main class="u-bg-wild-sand lg:u--mt-24 lg:u-pt-24 u-pb-4">
+        
+    <div class="u-o-8 brand--champ">
+        <div data-require="./src/components/tabs">
+            <div class="container">
+                <ul id="ba2863ef-dbd4-4e99-959f-b7c4ba1783c1"
+                    class="tabs u-list-reset u-flex u-flex-col md:u-flex-row u-flex-wrap u-justify-center brand--champ"
+                    data-tabs
+                    data-deep-link="true"
+                    data-update-history="true">
+
+                        <li class="tabs-title is-active">
+                            <a href="#early-rounds">Early Rounds </a>
+                        </li>
+                        <li class="tabs-title ">
+                            <a href="#4th-round">4th Round</a>
+                        </li>
+                        <li class="tabs-title ">
+                            <a href="#teams">Teams</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div data-tabs-content="ba2863ef-dbd4-4e99-959f-b7c4ba1783c1" class="tabs-content">
+                        <div class="tabs-panel is-active" id="early-rounds">
+
+        <!--
+            ComponentIdent = 1
+        -->
+
+    <div class="competition-components-container brand--champ">
+
+
+        <div class="container">
+            <h2 class="centered-heading">Matches</h2>
+        </div>
+    <div class="u-o-8">
+
+        <div data-vue-resultList
+             data-tabGUID="2eaad265-dda5-49da-9cb1-119077e44597"
+             data-tabDefaultID="13325"
+             data-refresh-interval="60"
+             data-score-endpoint="//championsleague.cev.eu/umbraco/api/CompetitionApi/GetResultList?tabKey=dd3ffae7-5837-49ba-b8be-3f1b1a7e1ef1&amp;nodeId=241195&amp;culture=en-US&amp;componentIdent=1"
+             data-liveresult-endpoint="//championsleague.cev.eu/umbraco/api/CompetitionApi/GetLiveResultScoreByMatchId?matchid="></div>
+
+    </div>
+    </div>
+                        </div>
+                        <div class="tabs-panel " id="4th-round">
+
+        <!--
+            ComponentIdent = 1
+        -->
+
+    <div class="competition-components-container brand--champ">
+
+<div class="container"><h2 class="centered-heading">Pool Standings</h2></div><div class="container brand--champ" data-require="./src/components/pool-standings"><div class="tab-container"><a id="tab-6b5a02c1-9829-4027-bba5-fb97e902f345-0" data-tabid="6b5a02c1-9829-4027-bba5-fb97e902f345-0" class="pool-tab is-active">Pool A</a><a id="tab-6b5a02c1-9829-4027-bba5-fb97e902f345-1" data-tabid="6b5a02c1-9829-4027-bba5-fb97e902f345-1" class="pool-tab ">Pool B</a><a id="tab-6b5a02c1-9829-4027-bba5-fb97e902f345-2" data-tabid="6b5a02c1-9829-4027-bba5-fb97e902f345-2" class="pool-tab ">Pool C</a><a id="tab-6b5a02c1-9829-4027-bba5-fb97e902f345-3" data-tabid="6b5a02c1-9829-4027-bba5-fb97e902f345-3" class="pool-tab ">Pool D</a><a id="tab-6b5a02c1-9829-4027-bba5-fb97e902f345-4" data-tabid="6b5a02c1-9829-4027-bba5-fb97e902f345-4" class="pool-tab ">Pool E</a></div><div class="pool-standings-table u-overflow-x-auto" data-require="./src/components/cta-overlay"><div class="overlay-container"><div class="cta"><img src="~/assets/img/icons/swipe-left-icon.png"> Swipe left</div></div><table class="u-text-left u-w-full" id="pool-standings-table" role="table"><thead><tr role="row"><th scope="col" colspan="2"></th><th scope="col" colspan="3">Matches</th><th scope="col" colspan="6">Results Details</th><th scope="col" colspan="1"></th><th scope="col" colspan="3">Sets</th><th scope="col" colspan="4">Points</th></tr><tr role="row"><th>Rank</th><th class="u-pr-8">Team</th><th>Total</th><th>Won</th><th class="u-pr-8">Lost</th><th>3-0</th><th>3-1</th><th>3-2</th><th>2-3</th><th>1-3</th><th class="u-pr-2">0-3</th><th class="u-pr-8">Pts</th><th>Won</th><th>Lost</th><th class="u-pr-8">Ratio</th><th>Won</th><th>Lost</th><th>Ratio</th></tr></thead><tbody id="body-tab-6b5a02c1-9829-4027-bba5-fb97e902f345-0" data-tabContent="6b5a02c1-9829-4027-bba5-fb97e902f345-0" class="show"><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/15ffacf538718f42cb93f451385e833a);"></span>Asterix Avo BEVEREN</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/8419561d881f8fe5da518369d44ede83);"></span>UNI OPOLE</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/4fbdcb186a6eae0504559fd6dc627373);"></span>VakifBank ISTANBUL</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/6fbcbd3927e24d81aa1a111e4c66421f);"></span>Volley MULHOUSE Alsace</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr></tbody><tbody id="body-tab-6b5a02c1-9829-4027-bba5-fb97e902f345-1" data-tabContent="6b5a02c1-9829-4027-bba5-fb97e902f345-1" class="hidden"><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/9fda9c9dbc146a780a1e9d5c188562fc);"></span>A. Carraro Prosecco DOC CONEGLIANO</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/a601526370b3a2fa6ce504f49743f071);"></span>DRESDNER SC</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/6a1aa86bf81d311e59b5c55e90356976);"></span>Igor Gorgonzola NOVARA</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/858206134a2035d504559b3d86608af8);"></span>KS Developres RZESZÓW</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr></tbody><tbody id="body-tab-6b5a02c1-9829-4027-bba5-fb97e902f345-2" data-tabContent="6b5a02c1-9829-4027-bba5-fb97e902f345-2" class="hidden"><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/daa1540751d5ede62639198501ac916f);"></span>Fenerbahçe Medicana ISTANBUL</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/3216c3e58ab5ee273f41406d003df090);"></span>LEVALLOIS PARIS Saint Cloud</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/3a9e95afff034b8e65e39fc7849867a1);"></span>Numia Vero Volley MILANO</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/65db7a665cfd70f6b7687cabeb1d0262);"></span>Vasas Óbuda BUDAPEST</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr></tbody><tbody id="body-tab-6b5a02c1-9829-4027-bba5-fb97e902f345-3" data-tabContent="6b5a02c1-9829-4027-bba5-fb97e902f345-3" class="hidden"><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/4b46182dc808acca18acbb19abd0ea00);"></span>Eczacibasi Peron ISTANBUL</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/a5d46a74549735d0b56ed20c5c5d71fd);"></span>Savino Del Bene SCANDICCI</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/ff9cbc3c2b7dc5101fa85e9372b27056);"></span>Tent OBRENOVAC</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/605116ebccb4931177a6252087fb67b6);"></span>Turan TOVUZ</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr></tbody><tbody id="body-tab-6b5a02c1-9829-4027-bba5-fb97e902f345-4" data-tabContent="6b5a02c1-9829-4027-bba5-fb97e902f345-4" class="hidden"><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/a6886c00d2f0f9504d4af48db84b0dfd);"></span>C.S.O. VOLUNTARI 2005</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/5febb76aecd8244d7165f34b3cb5567a);"></span>Galatasaray Daikin ISTANBUL</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/5a3f6a9c18e8f5bc349d0352dae45091);"></span>PGE Budowlani ŁÓDŹ</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr><tr role="row" class="data"><td>1</td><td class="u-text-left"><span class="flag-icon" style="background-image: url(https://webmedia.prod.cev.eu/WebMediaCache/GetImage/107b48ef0544109b01ecdd0074459c7f);"></span>VfB SUHL Thüringen</td><td>0</td><td>0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="u-pr-2">0</td><td class="u-pr-8">0</td><td>0</td><td>0</td><td>100.000</td><td>0</td><td>0</td><td>100.000</td></tr></tbody></table></div></div>
+
+
+    <div class="u-o-8">
+
+        <div data-vue-resultList
+             data-tabGUID="26d7bcf6-7237-413e-ad45-e7f12db70209"
+             data-tabDefaultID="13334"
+             data-refresh-interval="60"
+             data-score-endpoint="//championsleague.cev.eu/umbraco/api/CompetitionApi/GetResultList?tabKey=66039b99-d23d-450e-8ab1-637bd125d0f0&amp;nodeId=241195&amp;culture=en-US&amp;componentIdent=1"
+             data-liveresult-endpoint="//championsleague.cev.eu/umbraco/api/CompetitionApi/GetLiveResultScoreByMatchId?matchid="></div>
+
+    </div>
+    </div>
+                        </div>
+                        <div class="tabs-panel " id="teams">
+
+        <!--
+            ComponentIdent = 1
+        -->
+
+    <div class="competition-components-container brand--champ">
+
+    <div class="u-o-8 u-py-8">
+        <div class="container team-listing brand--champ">
+            <h2 class="u-py-6"></h2>
+            <div class="row">
+                <div class="col-12 u-o-8">
+                    <div class="row">
+
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14519-a-carraro-prosecco-doc-conegliano">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/9fda9c9dbc146a780a1e9d5c188562fc" alt="ITA" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">A. Carraro Prosecco DOC CONEGLIANO</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">A. Carraro Prosecco DOC CONEGLIANO</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14644-asterix-avo-beveren">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/15ffacf538718f42cb93f451385e833a" alt="BEL" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Asterix Avo BEVEREN</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Asterix Avo BEVEREN</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14501-cso-voluntari-2005">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/a6886c00d2f0f9504d4af48db84b0dfd" alt="ROU" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">C.S.O. VOLUNTARI 2005</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">C.S.O. VOLUNTARI 2005</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14484-dresdner-sc">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/a601526370b3a2fa6ce504f49743f071" alt="GER" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">DRESDNER SC</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">DRESDNER SC</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14638-eczacibasi-peron-istanbul">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/4b46182dc808acca18acbb19abd0ea00" alt="TUR" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Eczacibasi Peron ISTANBUL</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Eczacibasi Peron ISTANBUL</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14490-fc-porto">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/5b29f2ab3135c29ae7dfedbbf3997356" alt="POR" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">FC PORTO</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">FC PORTO</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14637-fenerbahce-medicana-istanbul">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/daa1540751d5ede62639198501ac916f" alt="TUR" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Fenerbah&#xE7;e Medicana ISTANBUL</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Fenerbah&#xE7;e Medicana ISTANBUL</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14602-fundacion-cajasol-andalucia">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/68fe42652b6cba2628e47cebb6264f50" alt="ESP" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Fundaci&#xF3;n Cajasol ANDALUC&#xCD;A</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Fundaci&#xF3;n Cajasol ANDALUC&#xCD;A</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14641-galatasaray-daikin-istanbul">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/5febb76aecd8244d7165f34b3cb5567a" alt="TUR" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Galatasaray Daikin ISTANBUL</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Galatasaray Daikin ISTANBUL</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14524-igor-gorgonzola-novara">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/6a1aa86bf81d311e59b5c55e90356976" alt="ITA" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Igor Gorgonzola NOVARA</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Igor Gorgonzola NOVARA</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14593-ks-developres-rzeszow">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/858206134a2035d504559b3d86608af8" alt="POL" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">KS Developres RZESZ&#xD3;W</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">KS Developres RZESZ&#xD3;W</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14507-levallois-paris-saint-cloud">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/3216c3e58ab5ee273f41406d003df090" alt="FRA" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">LEVALLOIS PARIS Saint Cloud</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">LEVALLOIS PARIS Saint Cloud</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14460-maritza-plovdiv">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/5687f7c6ad33fa2ed4d80a06633a9871" alt="BUL" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Maritza PLOVDIV</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Maritza PLOVDIV</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14541-mladost-zagreb">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/304e6858a1095252de43d8a209086973" alt="CRO" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Mladost ZAGREB</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Mladost ZAGREB</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14521-numia-vero-volley-milano">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/3a9e95afff034b8e65e39fc7849867a1" alt="ITA" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Numia Vero Volley MILANO</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Numia Vero Volley MILANO</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14581-ok-herceg-novi">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/cb9c4198bd693e0733c1abfc01692740" alt="MNE" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">OK HERCEG NOVI</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">OK HERCEG NOVI</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14576-otp-banka-branik-maribor">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/fb54473195badc60ec3b838780aba96e" alt="SLO" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">OTP Banka Branik MARIBOR</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">OTP Banka Branik MARIBOR</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14592-pge-budowlani-lodz">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/5a3f6a9c18e8f5bc349d0352dae45091" alt="POL" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">PGE Budowlani &#x141;&#xD3;D&#x179;</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">PGE Budowlani &#x141;&#xD3;D&#x179;</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14520-savino-del-bene-scandicci">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/a5d46a74549735d0b56ed20c5c5d71fd" alt="ITA" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Savino Del Bene SCANDICCI</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Savino Del Bene SCANDICCI</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14585-tent-obrenovac">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/ff9cbc3c2b7dc5101fa85e9372b27056" alt="SRB" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Tent OBRENOVAC</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Tent OBRENOVAC</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14456-turan-tovuz">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/605116ebccb4931177a6252087fb67b6" alt="AZE" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Turan TOVUZ</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Turan TOVUZ</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14594-uni-opole">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/8419561d881f8fe5da518369d44ede83" alt="POL" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">UNI OPOLE</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">UNI OPOLE</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14636-vakifbank-istanbul">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/4fbdcb186a6eae0504559fd6dc627373" alt="TUR" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">VakifBank ISTANBUL</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">VakifBank ISTANBUL</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14555-vasas-obuda-budapest">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/65db7a665cfd70f6b7687cabeb1d0262" alt="HUN" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Vasas &#xD3;buda BUDAPEST</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Vasas &#xD3;buda BUDAPEST</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14483-vfb-suhl-thuringen">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/107b48ef0544109b01ecdd0074459c7f" alt="GER" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">VfB SUHL Th&#xFC;ringen</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">VfB SUHL Th&#xFC;ringen</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-3 col-lg-2">
+                                    <div class="u-py-3 u-h-full">
+                                        <div class="c-article-listing-summary team-listing__card u-bg-white u-h-full md:u-max-w-300" data-hover-expand>
+                                            <a class="u-block u-relative" href="/team/14506-volley-mulhouse-alsace">
+                                                <div class="u-aspect-ratio-square u-relative">
+                                                    <img loading="lazy" src="https://webmedia.prod.cev.eu/WebMediaCache/GetImage/6fbcbd3927e24d81aa1a111e4c66421f" alt="FRA" class="team-listing__logo" />
+                                                </div>
+                                                <div class="c-article-listing-summary__summary team-listing__summary u-p-2 md:u-p-4 u-bg-white u-absolute u-pin-l u-pin-b u-w-full brand-border">
+                                                    <div class="u-leading-tight">
+                                                        <p class="u-text-xl u-text-black u-font-extrabold">Volley MULHOUSE Alsace</p>
+                                                    </div>
+                                                    <div class="u-gap-x-4" style="max-height: 0px; overflow: hidden; transition: max-height 0.25s ease-in-out;" data-hover-expand-body>
+                                                        <div class="u-flex u-justify-between u-mt-4">
+                                                            <div class="brand-color u-truncate">Team</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="u-p-2 md:u-p-4 u-bg-white">
+                                                    <p class=" md:u-text-xl u-font-extrabold">Volley MULHOUSE Alsace</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    </main>
+
+        <footer class="primary-footer u-pt-10 u-pb-16 u-bg-navy u-text-white">
+        <div class="container">
+            <div class="primary-footer__inner u-flex-0 lg:u-flex md:u-justify-between">
+        <div class="primary-footer__links md:u-justify-between u-max-w-lg u-w-full">
+            <div class="div-columns u-flex-0 md:u-flex md:u-justify-between">
+                        <div class="div-columns__item">
+                            <h5>CEV</h5>
+                            <ul>
+                                    <li><a href="https://inside.cev.eu/" title="Inside CEV">Inside CEV</a></li>
+                                    <li><a href="https://inside.cev.eu/institutions/" title="About">About</a></li>
+                                    <li><a href="https://inside.cev.eu/mission/" title="Mission">Mission</a></li>
+                                    <li><a href="https://inside.cev.eu/documents/" title="Documents">Documents</a></li>
+                                    <li><a href="https://inside.cev.eu/contacts/" title="Contact Us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Sports</h5>
+                            <ul>
+                                    <li><a href="https://cev.eu/club/" title="Club">Club</a></li>
+                                    <li><a href="https://cev.eu/national-team/" title="National">National</a></li>
+                                    <li><a href="https://cev.eu/beach/" title="Beach">Beach</a></li>
+                                    <li><a href="https://cev.eu/snow/" title="Snow">Snow</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Top Events</h5>
+                            <ul>
+                                    <li><a href="/en/" title="Champions League">Champions League</a></li>
+                                    <li><a href="https://eurovolley.cev.eu/en/2026/" title="EuroVolley">EuroVolley</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Platforms</h5>
+                            <ul>
+                                    <li><a href="https://www.eurovolley.tv/" target="_blank" title="EuroVolley TV">EuroVolley TV</a></li>
+                                    <li><a href="https://cev.fanavenue.com/en/19-clothes" target="_blank" title="Official Shop">Official Shop</a></li>
+                                    <li><a href="https://campus.cev.eu/" target="_blank" title="CEV Campus">CEV Campus</a></li>
+                                    <li><a href="http://mediaclub.cev.eu/" target="_blank" title="CEV Media Club">CEV Media Club</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Legal</h5>
+                            <ul>
+                                    <li><a href="https://cev.eu/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+                                    <li><a href="https://cev.eu/terms-of-use/" title="Terms of Use">Terms of Use</a></li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+        <div class="primary-footer__info u-mb-8 md:u-mb-0 md:u-ml-5 u-max-w-xs">
+            <div class="primary-footer__info-inner">
+                <h5>Social</h5>
+
+                <div class="primary-footer__socials u-flex u-mb-8 md:u-justify-start md:u-items-center">
+                                <a class="primary-footer__social-item facebook" href="https://www.facebook.com/CEVolleyball/" target="_blank">
+                                    <svg class="icon icon-facebook" role="img">
+                                        <title>facebook</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-facebook"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item instagram-v2" href="https://www.instagram.com/cevolleyball/" target="_blank">
+                                    <svg class="icon icon-instagram-v2" role="img">
+                                        <title>instagram-v2</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-instagram-v2"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item twitter" href="https://x.com/CEVolleyball" target="_blank">
+                                    <svg class="icon icon-twitter" role="img">
+                                        <title>twitter</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-twitter"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item tiktok" href="https://www.tiktok.com/@europeanvolleyball" target="_blank">
+                                    <svg class="icon icon-tiktok" role="img">
+                                        <title>tiktok</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-tiktok"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item youtube" href="https://www.youtube.com/cevolleyball">
+                                    <svg class="icon icon-youtube" role="img">
+                                        <title>youtube</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-youtube"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item linkedin" href="https://www.linkedin.com/company/cevolleyball" target="_blank">
+                                    <svg class="icon icon-linkedin" role="img">
+                                        <title>linkedin</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-linkedin"></use>
+                                    </svg>
+                                </a>
+                </div>
+                    <div class="u-mb-4">
+                        <a href="https://cev.eu/newsletter/" target="_self" class="u-block u-w-full btn-box btn-box--solid-blue-to-white">Newsletter Sign-Up</a>
+                    </div>
+            </div>
+            <div class="primary-footer__legals">
+                <span class="primary-footer__copyright u-block">&#xA9; CEV 2026</span>
+        <div class="u-flex u-flex-no-wrap u-justify-start u-py-2">
+                <div class="primary-footer__copyright u-w-block">
+                    <a target="_blank" href="https://www.itech28.eu/">
+                        <span style="padding-right: 5px !important;">
+                            Hosted by
+                        </span>
+                        <span style="vertical-align:middle">
+                            <img class="icon u-w-auto" src="/assets/ITech28_white.png">
+                            <img style="filter:invert(100%)" src="/assets/Itech28.svg" class="icon u-w-auto">
+                        </span>
+                    </a>
+                </div>
+        </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/_framework/blazor.webassembly.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svgxuse/1.2.6/svgxuse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.15/mediaelement-and-player.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement-plugins/2.5.1/quality/quality.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.15/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement-plugins/2.5.1/quality/quality.min.css" />
+   <script src="/assets/scripts/entry.9f8slv.js"></script>
+    <script src="/assets/vue.434gur.js"></script>
+
+    
+
+    <!-- CEVRENDERCOMPLETE -->
+</body>
+</html>

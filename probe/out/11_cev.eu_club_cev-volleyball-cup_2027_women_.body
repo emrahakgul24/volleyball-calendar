@@ -1,0 +1,690 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    
+
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" color="#0000ff" href="/assets/img/favicon/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+
+
+    
+    <title>CEV Volleyball Cup 2025 | CEV</title>
+    <meta name="description" content="Competition Page" />
+    <link rel="canonical" href="https://cev.eu/club/cev-volleyball-cup/2027/women/" />
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="/assets/css/utilities.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+<style>.partners-wrapper{display:none!important}</style></head>
+<body data-require="./src/views/body-view" class="u-bg-wild-sand">
+    
+  
+      <script integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <style>
+      #srch-input:focus {
+        outline:none
+       } 
+    </style>
+    <header class="c-nav-primary-header u-bg-white u-text-navy sticky brand--cev" data-require="./src/components/cnav" openedState="false">
+        <div class="container c-nav-primary-header__container">
+            <div class="c-nav-primary-header__inner u-flex u-items-stretch">
+                <a class="primary-header__logo u-py-2 u-flex u-items-center u-no-underline u-mr-5" href="https://cev.eu/">
+                    <svg class="icon icon-logo" role="img">
+                        <title>CEV Logo</title>
+                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-cev-logo"></use>
+                    </svg>
+                    CEV
+                </a>
+                <form id="searchBar" class="u-py-2 u-flex u-items-left u-mr-auto" style="border-bottom:1px solid gray; max-width:50%">
+                    <input id="srch-input" style="max-width:90%" type="text" placeholder="Search..." name="searchTerm" />
+                    <input style="display:none" type="text" placeholder="NodeId" value="CEV" name="siteName" />
+                     <button id="searchBtn" type="submit" data-toggle="modal" data-target="#exampleModal" style="width:20px;opacity:40%"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M470.704 407.906l-2.691-2.689.006-.002-107.514-107.523c14.938-25.733 23.616-55.565 23.82-87.451.626-97.615-77.99-177.243-175.599-177.857l-1.168-.002c-97.06.005-176.067 78.392-176.692 175.598-.618 97.609 77.999 177.236 175.597 177.859.389.002.766.004 1.155.004 32.442 0 62.846-8.79 88.998-24.075L404.035 469.2l.01-.01 2.686 2.686c8.125 8.124 21.293 8.117 29.414 0l34.56-34.554c8.115-8.117 8.121-21.293-.001-29.416zm-263.956-67.135c-72.589-.466-131.271-59.907-130.812-132.502C76.4 136.14 135.45 77.457 207.561 77.453l.88.002c35.167.22 68.144 14.124 92.851 39.148 24.705 25.025 38.188 58.178 37.962 93.352-.222 35.015-14.027 67.893-38.867 92.564-24.834 24.67-57.78 38.252-92.768 38.252h-.871z"></path></svg></button>
+                </form>
+                <div class="c-nav">
+
+                        <ul class="c-nav__list">
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="0">
+
+
+                                    <a class="menuItem" href="https://livescores.cev.eu/" target=&quot;_blank&quot;>
+                                        Live Scores
+                                    </a>
+
+
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="1">
+
+
+                                    <a class="menuItem" href="https://www.eurovolley.tv" target=&quot;_blank&quot;>
+                                        EuroVolley TV
+                                    </a>
+
+
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="2">
+
+
+                                    <a class="menuItem" href="https://cev.eu/club/" >
+                                        Club
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-plus u-text-yellow"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-minus u-text-yellow"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                            </a>
+
+
+                                        <div data-menu-slab class="menuSlab">
+                                            <div class="container">
+
+                                                <div class="menuSlab__row">
+
+                                                        <div class="">
+                                                                <a class="title" href="https://championsleague.cev.eu/en/" title="Champions League Volley">Champions League Volley</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://championsleague.cev.eu/en/men/#4th-round" title="Men">Men</a></li>
+                                                                        <li><a href="https://championsleague.cev.eu/en/women/#4th-round" title="Women">Women</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="https://cev.eu/club/cev-volleyball-cup/" title="Volleyball Cup">Volleyball Cup</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://cev.eu/club/cev-volleyball-cup/2027/men/#main-round" title="Men">Men</a></li>
+                                                                        <li><a href="https://cev.eu/club/cev-volleyball-cup/2027/women/" title="Women">Women</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                </div>
+
+                                                    <div class="menuSlab__row">
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/club/volleyball-challenge-cup/" title="Volleyball Challenge Cup">Volleyball Challenge Cup</a>
+                                                                <ul class="level-1">
+                                                                            <li><a href="https://cev.eu/club/volleyball-challenge-cup/2027/men/#main-round" title="Men">Men</a></li>
+                                                                            <li><a href="https://cev.eu/club/volleyball-challenge-cup/2027/women/#main-round" title="Women">Women</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/club/archive/" title="Archive">Archive</a>
+                                                                <ul class="level-1">
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="3">
+
+
+                                    <a class="menuItem" href="https://cev.eu/national-team/" >
+                                        National
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-plus u-text-yellow"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-minus u-text-yellow"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                            </a>
+
+
+                                        <div data-menu-slab class="menuSlab">
+                                            <div class="container">
+
+                                                <div class="menuSlab__row">
+
+                                                        <div class="">
+                                                                <a class="title" href="https://eurovolley.cev.eu/en/" title="EuroVolley">EuroVolley</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://eurovolley.cev.eu/en/2026/men/" title="Men">Men</a></li>
+                                                                        <li><a href="https://eurovolley.cev.eu/en/2026/women/" title="Women">Women</a></li>
+                                                                        <li><a href="https://eurovolley.cev.eu/en/2023/men/history/" title="Men History">Men History</a></li>
+                                                                        <li><a href="https://eurovolley.cev.eu/en/2023/women/history/" title="Women History">Women History</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="https://cev.eu/national-team/age-group-championships/" title="Age Group">Age Group</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u16m-2027/" title="U16 Men">U16 Men</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u16w-2027/" title="U16 Women">U16 Women</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u18m-2026/" title="U18 Men">U18 Men</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u18w-2026/" title="U18 Women">U18 Women</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u20m-2027/" title="U20 Men">U20 Men</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u20w-2027/" title="U20 Women">U20 Women</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u22m-2026/" title="U22 Men">U22 Men</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/u22w-2026/" title="U22 Women">U22 Women</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/age-group-championships/history/" title="History">History</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="https://cev.eu/national-team/european-leagues/cev-volleyball-european-league/" title="CEV Volleyball European League">CEV Volleyball European League</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://cev.eu/national-team/european-leagues/cev-volleyball-european-league/men/2026/" title="Men">Men</a></li>
+                                                                        <li><a href="https://cev.eu/national-team/european-leagues/cev-volleyball-european-league/women/2026/" title="Women">Women</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                </div>
+
+                                                    <div class="menuSlab__row">
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/national-team/rankings/" title="Rankings">Rankings</a>
+                                                                <ul class="level-1">
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/national-team/archive/" title="Archive">Archive</a>
+                                                                <ul class="level-1">
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/national-team/multi-sport-events/eyof/" title="Multi-Sport">Multi-Sport</a>
+                                                                <ul class="level-1">
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="4">
+
+
+                                    <a class="menuItem" href="https://cev.eu/beach/" >
+                                        Beach 
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-plus u-text-yellow"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-minus u-text-yellow"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                            </a>
+
+
+                                        <div data-menu-slab class="menuSlab">
+                                            <div class="container">
+
+                                                <div class="menuSlab__row">
+
+                                                        <div class="">
+                                                                <a class="title" href="https://eurobeachvolley.cev.eu/en/" title="EuroBeachVolley">EuroBeachVolley</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://eurobeachvolley.cev.eu/en/2026/" title="Poland 2026">Poland 2026</a></li>
+                                                                        <li><a href="https://eurobeachvolley.cev.eu/en/history/2025/" title="Germany 2025">Germany 2025</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="https://cev.eu/beach/nations-cup/2026/" title="Nations Cup">Nations Cup</a>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://cev.eu/beach/nations-cup/2026/preliminary-phase/" title="Preliminary Phase">Preliminary Phase</a></li>
+                                                                        <li><a href="https://cev.eu/beach/nations-cup/2026/nations-cup-final/" title="Nations Cup Final">Nations Cup Final</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="https://cev.eu/beach/queen-king-of-the-court-european-finals/queen-king-of-the-court-european-finals-2023/" target="" title="Queen &amp; King of the Court">Queen &amp; King of the Court</a>
+
+                                                            <ul class="level-1">
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <a class="title" href="https://cev.eu/beach/european-cup/2026/" title="CEV Beach Volley European Cup">CEV Beach Volley European Cup</a>
+
+                                                            <ul class="level-1">
+                                                            </ul>
+                                                        </div>
+
+                                                </div>
+
+                                                    <div class="menuSlab__row">
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/beach/beach-pro-tour/2026/" title="Beach Pro Tour Futures">Beach Pro Tour Futures</a>
+                                                                <ul class="level-1">
+                                                                            <li><a href="https://cev.eu/beach/beach-pro-tour/" title="History">History</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/beach/agegroups/" title="Age Group">Age Group</a>
+                                                                <ul class="level-1">
+                                                                            <li><a href="https://cev.eu/beach/agegroups/2026/u22/" title="U22">U22</a></li>
+                                                                            <li><a href="https://cev.eu/beach/agegroups/2026/u20/" title="U20">U20</a></li>
+                                                                            <li><a href="https://cev.eu/beach/agegroups/2026/u18/" title="U18">U18</a></li>
+                                                                            <li><a href="https://cev.eu/beach/agegroups/history/" title="History">History</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <a class="title" href="https://cev.eu/beach/zonal-events/" title="Zonal Events">Zonal Events</a>
+                                                                <ul class="level-1">
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <span class="title">
+                                                                        Rankings
+                                                                    </span>
+                                                                <ul class="level-1">
+                                                                            <li><a href="https://cev.eu/beach/cev-entry-ranking/" title="CEV Entry Ranking">CEV Entry Ranking</a></li>
+                                                                            <li><a href="https://cev.eu/beach/country-ranking/" target="_blank" title="Country Ranking">Country Ranking</a></li>
+                                                                            <li><a href="https://cev.eu/beach/beach-volleyball-age-group-rankings/" title="Beach Volleyball Age Group Rankings">Beach Volleyball Age Group Rankings</a></li>
+                                                                            <li><a href="https://cev.eu/beach/european-cup/rankings/" title="BV European Cup Country Ranking">BV European Cup Country Ranking</a></li>
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="5">
+
+
+                                    <a class="menuItem" href="https://cev.eu/news/" >
+                                        News
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-plus u-text-yellow"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-minus u-text-yellow"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                            </a>
+
+
+                                        <div data-menu-slab class="menuSlab">
+                                            <div class="container">
+
+                                                <div class="menuSlab__row">
+
+                                                        <div class="">
+                                                                <span class="title">
+                                                                    Sport
+                                                                </span>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://cev.eu/articles/club-volleyball/" title="Club Volleyball">Club Volleyball</a></li>
+                                                                        <li><a href="https://cev.eu/articles/volleyball/" title="National Team Volleyball">National Team Volleyball</a></li>
+                                                                        <li><a href="https://cev.eu/articles/beach-volleyball/" title="Beach Volleyball">Beach Volleyball</a></li>
+                                                                        <li><a href="https://cev.eu/articles/snow-volleyball/" title="Snow Volleyball">Snow Volleyball</a></li>
+                                                                        <li><a href="https://cev.eu/articles/features/" title="Features">Features</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="">
+                                                                <span class="title">
+                                                                    Institution
+                                                                </span>
+
+                                                            <ul class="level-1">
+                                                                        <li><a href="https://inside.cev.eu/articles/cev/" title="CEV">CEV</a></li>
+                                                                        <li><a href="https://inside.cev.eu/articles/development/" title="Development">Development</a></li>
+                                                                        <li><a href="https://inside.cev.eu/articles/campaigns/" title="Campaigns">Campaigns</a></li>
+                                                                        <li><a href="https://inside.cev.eu/articles/partners-sponsors/" title="Partners &amp; Sponsors">Partners &amp; Sponsors</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                </div>
+
+                                                    <div class="menuSlab__row">
+                                                            <div class="">
+                                                                    <span class="title">
+                                                                        Organisation
+                                                                    </span>
+                                                                <ul class="level-1">
+                                                                            <li><a href="https://inside.cev.eu/articles/clubs/" title="Clubs">Clubs</a></li>
+                                                                            <li><a href="https://inside.cev.eu/articles/federations/" title="Federations">Federations</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="">
+                                                                    <span class="title">
+                                                                        Competition
+                                                                    </span>
+                                                                <ul class="level-1">
+                                                                            <li><a href="https://championsleague.cev.eu/en/articles/" title="Champions League">Champions League</a></li>
+                                                                            <li><a href="https://eurovolley.cev.eu/en/articles/" title="EuroVolley">EuroVolley</a></li>
+                                                                            <li><a href="https://eurobeachvolley.cev.eu/en/articles/" title="EuroBeachVolley">EuroBeachVolley</a></li>
+                                                                            <li><a href="https://eurosnowvolley.cev.eu/en/articles/" title="EuroSnowVolley">EuroSnowVolley</a></li>
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="6">
+
+
+                                    <a class="menuItem" href="https://playzone.cev.eu/" >
+                                        Game Hub
+                                    </a>
+
+
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="7">
+
+
+                                    <a class="menuItem" href="https://cev.eu/calendar/" >
+                                        Calendar
+                                    </a>
+
+
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="8">
+
+
+                                    <a class="menuItem" href="https://inside.cev.eu/sponsors-partners/" >
+                                        Sponsors
+                                    </a>
+
+
+
+                                </li>
+                                <li class="c-nav__list__item" data-mainMenu data-nav-item-id="9">
+
+
+                                    <a class="menuItem" href="https://inside.cev.eu/" >
+                                        CEV
+                                    </a>
+
+
+
+                                </li>
+                        </ul>
+
+                    <ul data-nav-extra class="c-nav__extra"></ul>
+
+                    <button class="btn-wrapper hidden" data-hamburger>
+                        <span class="btn-burger" data-state="off">Menu</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </header>
+<div id="searchContainer" style="display:none">
+
+</div>
+
+<script type="text/javascript">
+  $('#searchBtn').click(function (e) {
+                e.preventDefault();
+                var formData = $('#searchBar').serialize();
+              
+                $.ajax({
+                    url: '/Search',
+                    type: 'POST',
+                    data: formData,
+                    success: function (response) {
+                        $('#searchContainer').html(response);
+                        $("#searchContainer").css("display", "block");
+                        window.scrollTo({top:0, behavior:"smooth"});
+                    },
+                    error: function (xhr, status, error) {
+                       
+                    }
+                });
+            });
+</script>
+
+
+    
+
+
+<div class="u-bg-wild-sand breadcrumb-wrapper sticky">
+    <div class="container u-flex u-flex-wrap u-items-center u-relative">
+            <ul class="breadcrumbs u-w-full u-py-4 u-list-reset u-gap-y-2 u-flex u-flex-wrap u-uppercase">
+                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/" target="_self">Home</a>
+                    </li>
+                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/" target="_self">Club</a>
+                    </li>
+                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/cev-volleyball-cup/" target="_self">CEV Volleyball Cup</a>
+                    </li>
+                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/cev-volleyball-cup/2027/" target="_self">2027</a>
+                    </li>
+                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/cev-volleyball-cup/2027/women/" target="_self">Women</a>
+                    </li>
+            </ul>
+    </div>
+</div>
+
+    
+
+    <div class="carousel-component  ">
+    <div class="c-hero-carousel u-bg-navy u-z-0 u-w-full u-h-auto  auto-play"
+        data-require="./src/components/hero-carousel">
+        <div class="">
+                    <article class=" u-relative u-w-full u-overflow-hidden">
+                        
+
+<div style="background-image: url(https://webmedia.prod.cev.eu/media/grpdroxy/hero-cc-chc.jpg?width=1920&amp;height=756&amp;v=1dabbdc47761090);" class="carousel-image-min-height carousel-component__image-slide c-hero-carousel__item u-bg-cover u-flex u-items-center u-text-white u-px-4 u-py-8 md:u-p-16 lg:u-p-24 u-static">
+    <div class="container u-flex u-justify-start u-z-10">
+        <div class="md:u-w-1/2 lg:u-w-2/5 u-max-w-full sm:u-max-w-lg">
+                <img class="u-h-32 u-mb-4" src="https://webmedia.prod.cev.eu/media/455de4ux/ccup_badge-2027_rgb-150.png?v=1dd233fc46ad370" loading="lazy" />
+                <h2 class="u-text-3xl md:u-text-5xl u-leading-none u-max-w-full u-mb-4 u-z-10 u-break-words md:u-break-normal">CEV Volleyball Cup 2027</h2>
+                <p class="u-text-2xl u-mb-4 u-z-10">Women</p>
+
+                <hr class="u-m-0 u-border-yellow u-border-4 u-w-16">
+            <div class="u-inline-block">
+                <div class="swiper-pagination u-h-3 u-relative u-mt-4 u-gap-x-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    </article>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="lg:u-block sub-navigation">
+    
+
+    <div class="container u-py-4 lg:u-py-0 lg:u-relative">
+        
+        <ul class="u-list-reset u-bg-white lg:u-flex lg:u-justify-around lg:u-items-center lg:u-px-10">
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/club/cev-volleyball-cup/2027/men/" title="Men">Men</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://www-old.cev.eu/Competition-Area/competition.aspx?ID=1950&amp;PID=3548" title="Schedule &amp; Results">Schedule &amp; Results</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://www-old.cev.eu/Competition-Area/History.aspx?ID=1950" title="History">History</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/calendar/" title="Calendar">Calendar</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://www-old.cev.eu/Competition-Area/Statistics.aspx?ID=1950" title="Statistics">Statistics</a>
+                </li>
+        </ul>
+    </div>
+
+    </div>
+
+    <main class="u-bg-wild-sand lg:u--mt-24 lg:u-pt-24 u-pb-4">
+        
+
+
+
+
+
+
+    </main>
+
+        <footer class="primary-footer u-pt-10 u-pb-16 u-bg-navy u-text-white">
+        <div class="container">
+            <div class="primary-footer__inner u-flex-0 lg:u-flex md:u-justify-between">
+        <div class="primary-footer__links md:u-justify-between u-max-w-lg u-w-full">
+            <div class="div-columns u-flex-0 md:u-flex md:u-justify-between">
+                        <div class="div-columns__item">
+                            <h5>CEV</h5>
+                            <ul>
+                                    <li><a href="https://inside.cev.eu/" title="Inside CEV">Inside CEV</a></li>
+                                    <li><a href="https://inside.cev.eu/institutions/" title="About">About</a></li>
+                                    <li><a href="https://inside.cev.eu/mission/" title="Mission">Mission</a></li>
+                                    <li><a href="https://inside.cev.eu/documents/" title="Documents">Documents</a></li>
+                                    <li><a href="https://inside.cev.eu/contacts/" title="Contact Us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Sports</h5>
+                            <ul>
+                                    <li><a href="https://cev.eu/club/" title="Club">Club</a></li>
+                                    <li><a href="https://cev.eu/national-team/" title="National">National</a></li>
+                                    <li><a href="https://cev.eu/beach/" title="Beach">Beach</a></li>
+                                    <li><a href="https://cev.eu/snow/" title="Snow">Snow</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Top Events</h5>
+                            <ul>
+                                    <li><a href="https://championsleague.cev.eu/en/" title="Champions League">Champions League</a></li>
+                                    <li><a href="https://eurovolley.cev.eu/en/2026/" title="EuroVolley">EuroVolley</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Platforms</h5>
+                            <ul>
+                                    <li><a href="https://www.eurovolley.tv/" target="_blank" title="EuroVolley TV">EuroVolley TV</a></li>
+                                    <li><a href="https://cev.fanavenue.com/en/19-clothes" target="_blank" title="Official Shop">Official Shop</a></li>
+                                    <li><a href="https://campus.cev.eu/" target="_blank" title="CEV Campus">CEV Campus</a></li>
+                                    <li><a href="http://mediaclub.cev.eu/" target="_blank" title="CEV Media Club">CEV Media Club</a></li>
+                            </ul>
+                        </div>
+                        <div class="div-columns__item">
+                            <h5>Legal</h5>
+                            <ul>
+                                    <li><a href="https://cev.eu/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+                                    <li><a href="https://cev.eu/terms-of-use/" title="Terms of Use">Terms of Use</a></li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+        <div class="primary-footer__info u-mb-8 md:u-mb-0 md:u-ml-5 u-max-w-xs">
+            <div class="primary-footer__info-inner">
+                <h5>Social</h5>
+
+                <div class="primary-footer__socials u-flex u-mb-8 md:u-justify-start md:u-items-center">
+                                <a class="primary-footer__social-item facebook" href="https://www.facebook.com/CEVolleyball/" target="_blank">
+                                    <svg class="icon icon-facebook" role="img">
+                                        <title>facebook</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-facebook"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item instagram-v2" href="https://www.instagram.com/cevolleyball/" target="_blank">
+                                    <svg class="icon icon-instagram-v2" role="img">
+                                        <title>instagram-v2</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-instagram-v2"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item twitter" href="https://x.com/CEVolleyball" target="_blank">
+                                    <svg class="icon icon-twitter" role="img">
+                                        <title>twitter</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-twitter"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item tiktok" href="https://www.tiktok.com/@europeanvolleyball" target="_blank">
+                                    <svg class="icon icon-tiktok" role="img">
+                                        <title>tiktok</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-tiktok"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item youtube" href="https://www.youtube.com/cevolleyball">
+                                    <svg class="icon icon-youtube" role="img">
+                                        <title>youtube</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-youtube"></use>
+                                    </svg>
+                                </a>
+                                <a class="primary-footer__social-item linkedin" href="https://www.linkedin.com/company/cevolleyball" target="_blank">
+                                    <svg class="icon icon-linkedin" role="img">
+                                        <title>linkedin</title>
+                                        <use xlink:href="/assets/img/sprite/symbols.svg#symbol-linkedin"></use>
+                                    </svg>
+                                </a>
+                </div>
+                    <div class="u-mb-4">
+                        <a href="https://cev.eu/newsletter/" target="_self" class="u-block u-w-full btn-box btn-box--solid-blue-to-white">Newsletter Sign-Up</a>
+                    </div>
+            </div>
+            <div class="primary-footer__legals">
+                <span class="primary-footer__copyright u-block">&#xA9; CEV 2026</span>
+        <div class="u-flex u-flex-no-wrap u-justify-start u-py-2">
+                <div class="primary-footer__copyright u-w-block">
+                    <a target="_blank" href="https://www.itech28.eu/">
+                        <span style="padding-right: 5px !important;">
+                            Hosted by
+                        </span>
+                        <span style="vertical-align:middle">
+                            <img class="icon u-w-auto" src="/assets/ITech28_white.png">
+                            <img style="filter:invert(100%)" src="/assets/Itech28.svg" class="icon u-w-auto">
+                        </span>
+                    </a>
+                </div>
+        </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/_framework/blazor.webassembly.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svgxuse/1.2.6/svgxuse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.15/mediaelement-and-player.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement-plugins/2.5.1/quality/quality.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.15/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement-plugins/2.5.1/quality/quality.min.css" />
+   <script src="/assets/scripts/entry.9f8slv.js"></script>
+    <script src="/assets/vue.434gur.js"></script>
+
+    
+
+    <!-- CEVRENDERCOMPLETE -->
+</body>
+</html>
