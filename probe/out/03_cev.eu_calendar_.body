@@ -17,9 +17,9 @@
 
 
     
-    <title>CEV Volleyball Cup 2025 | CEV</title>
-    <meta name="description" content="Competition Page" />
-    <link rel="canonical" href="https://cev.eu/club/cev-volleyball-cup/2027/women/" />
+    <title>Calendar | CEV</title>
+    <meta name="description" content="" />
+    <link rel="canonical" href="https://cev.eu/calendar/" />
 
 
     <meta charset="UTF-8">
@@ -473,49 +473,13 @@
                         <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/" target="_self">Home</a>
                     </li>
                     <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
-                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/" target="_self">Club</a>
-                    </li>
-                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
-                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/cev-volleyball-cup/" target="_self">CEV Volleyball Cup</a>
-                    </li>
-                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
-                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/cev-volleyball-cup/2027/" target="_self">2027</a>
-                    </li>
-                    <li class="u-pr-6 u-mr-6 u-triangle-after-breadcrumb">
-                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/club/cev-volleyball-cup/2027/women/" target="_self">Women</a>
+                        <a class="u-text-silver hocus:u-text-silver--dark" href="https://cev.eu/calendar/" target="_self">Calendar</a>
                     </li>
             </ul>
     </div>
 </div>
 
     
-
-    <div class="carousel-component  ">
-    <div class="c-hero-carousel u-bg-navy u-z-0 u-w-full u-h-auto  auto-play"
-        data-require="./src/components/hero-carousel">
-        <div class="">
-                    <article class=" u-relative u-w-full u-overflow-hidden">
-                        
-
-<div style="background-image: url(https://webmedia.prod.cev.eu/media/grpdroxy/hero-cc-chc.jpg?width=1920&amp;height=756&amp;v=1dabbdc47761090);" class="carousel-image-min-height carousel-component__image-slide c-hero-carousel__item u-bg-cover u-flex u-items-center u-text-white u-px-4 u-py-8 md:u-p-16 lg:u-p-24 u-static">
-    <div class="container u-flex u-justify-start u-z-10">
-        <div class="md:u-w-1/2 lg:u-w-2/5 u-max-w-full sm:u-max-w-lg">
-                <img class="u-h-32 u-mb-4" src="https://webmedia.prod.cev.eu/media/455de4ux/ccup_badge-2027_rgb-150.png?v=1dd233fc46ad370" loading="lazy" />
-                <h2 class="u-text-3xl md:u-text-5xl u-leading-none u-max-w-full u-mb-4 u-z-10 u-break-words md:u-break-normal">CEV Volleyball Cup 2027</h2>
-                <p class="u-text-2xl u-mb-4 u-z-10">Women</p>
-
-                <hr class="u-m-0 u-border-yellow u-border-4 u-w-16">
-            <div class="u-inline-block">
-                <div class="swiper-pagination u-h-3 u-relative u-mt-4 u-gap-x-2"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-                    </article>
-            </div>
-        </div>
-    </div>
 
 
     <div class="lg:u-block sub-navigation">
@@ -525,19 +489,22 @@
         
         <ul class="u-list-reset u-bg-white lg:u-flex lg:u-justify-around lg:u-items-center lg:u-px-10">
                 <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
-                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/club/cev-volleyball-cup/2027/men/" title="Men">Men</a>
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/" title="Home">Home</a>
                 </li>
                 <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
-                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://www-old.cev.eu/Competition-Area/competition.aspx?ID=1950&amp;PID=3548" title="Schedule &amp; Results">Schedule &amp; Results</a>
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/calendar/club/" title="Club">Club</a>
                 </li>
                 <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
-                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://www-old.cev.eu/Competition-Area/History.aspx?ID=1950" title="History">History</a>
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/calendar/national-team/" title="National Team">National Team</a>
                 </li>
                 <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
-                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/calendar/" title="Calendar">Calendar</a>
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/calendar/beach/" title="Beach">Beach</a>
                 </li>
                 <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
-                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://www-old.cev.eu/Competition-Area/Statistics.aspx?ID=1950" title="Statistics">Statistics</a>
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://cev.eu/calendar/snow/" title="Snow">Snow</a>
+                </li>
+                <li class="lg:u-flex-1 u-border-t u-border-b u-border-grey-lightest lg:u-truncate lg:u-border-t-0 lg:u-border-b-0">
+                    <a class="u-block u-text-black u-text-lg hocus:u-text-black--dark u-text-center u-font-bold u-p-4 lg:u-truncate lg:u-py-8 lg:u-px-2 lg:u-text-xl lg:hocus:u--translate-y-2" href="https://inside.cev.eu/" title="Inside CEV">Inside CEV</a>
                 </li>
         </ul>
     </div>
@@ -548,7 +515,208 @@
         
 
 
+        <!--
+            ComponentIdent = 1
+        -->
 
+    <section class="heading-component">
+        <div class="container">
+            <h2 class="centered-heading">European Calendar</h2>
+        </div>
+    </section>
+        <!--
+            ComponentIdent = 2
+        -->
+
+    <div class="article-listing-component u-o-8 u-py-8 brand--cev">
+
+    <div class="container u-hidden lg:u-block">
+        <div class="row">
+            <div class="col-6">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/eaykrerc/bv-tentative-calendar-2026-13aug26.jpg?width=630&amp;height=412&amp;v=1dd2bd04859f5b0');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/hblecfyg/bv-tentative-calendar-2026-13aug26.pdf" title="CEV Beach Volleyball Calendar 2026 - August version"></a>
+                    </div>
+
+
+            </div>
+            <div class="col-6">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/rggmnmoe/tentative-calendars-2026-nf-upgrade-19jan26.jpg?width=630&amp;height=412&amp;v=1dc8f756a6016a0');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/irdfnjdw/tentative-calendars-2026-nf-upgrade-19jan26.pdf" title="Calendar National Team Competitions 2026"></a>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE -->
+    <div class="container">
+        <div class="article-listing--mobile lg:u-hidden u-overflow-hidden" data-require="./src/components/article-listing">
+            
+<div class="u-absolute u-m-5 u-pin-l u-pin-t u-pin-r u-flex u-justify-between">
+    <div class="u-inline-block u-mr-1">
+        <div class="swiper-pagination u-text-left u-relative u-gap-x-2"></div>
+    </div>
+
+    <div class="article-listing__swipe-prompt u-font-bold u-p-2 u-rounded u-shadow u-select-none u-text-white u-z-10">
+        <div class="u-flex">
+            Swipe for more…
+            <svg class="icon feather-icon u-ml-2 animation-shake-2px" role="img">
+                <title>Right arrow</title>
+                <use xlink:href="/assets/img/sprite/symbols.svg#symbol-arrow-right-circle"></use>
+            </svg>
+        </div>
+    </div>
+</div>
+            <div class="swiper-wrapper">
+                
+    <div class="article-listing-slide article-listing-slide--flexible-cta swiper-slide">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/eaykrerc/bv-tentative-calendar-2026-13aug26.jpg?width=630&amp;height=412&amp;v=1dd2bd04859f5b0');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/hblecfyg/bv-tentative-calendar-2026-13aug26.pdf" title="CEV Beach Volleyball Calendar 2026 - August version"></a>
+                    </div>
+
+
+    </div>
+    <div class="article-listing-slide article-listing-slide--flexible-cta swiper-slide">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/rggmnmoe/tentative-calendars-2026-nf-upgrade-19jan26.jpg?width=630&amp;height=412&amp;v=1dc8f756a6016a0');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/irdfnjdw/tentative-calendars-2026-nf-upgrade-19jan26.pdf" title="Calendar National Team Competitions 2026"></a>
+                    </div>
+
+
+    </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE END -->
+
+    <div class="container u-hidden lg:u-block">
+        <div class="row">
+            <div class="col-6">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/v12ng05w/tentative-calendars-2027-nf-update-01june2026.jpg?width=630&amp;height=412&amp;v=1dcf1ab7dff7eb0');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/v12ng05w/tentative-calendars-2027-nf-update-01june2026.jpg" title="National Team Calendar 2027"></a>
+                    </div>
+
+
+            </div>
+            <div class="col-6">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/k4nd3vq5/ec-2027-02july26.jpg?width=630&amp;height=412&amp;v=1dd0a344ec6a000');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/3yxfmh4e/ec-2027-02july26.pdf" title="CEV European Cups 2027 Calendar"></a>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE -->
+    <div class="container">
+        <div class="article-listing--mobile lg:u-hidden u-overflow-hidden" data-require="./src/components/article-listing">
+            
+<div class="u-absolute u-m-5 u-pin-l u-pin-t u-pin-r u-flex u-justify-between">
+    <div class="u-inline-block u-mr-1">
+        <div class="swiper-pagination u-text-left u-relative u-gap-x-2"></div>
+    </div>
+
+    <div class="article-listing__swipe-prompt u-font-bold u-p-2 u-rounded u-shadow u-select-none u-text-white u-z-10">
+        <div class="u-flex">
+            Swipe for more…
+            <svg class="icon feather-icon u-ml-2 animation-shake-2px" role="img">
+                <title>Right arrow</title>
+                <use xlink:href="/assets/img/sprite/symbols.svg#symbol-arrow-right-circle"></use>
+            </svg>
+        </div>
+    </div>
+</div>
+            <div class="swiper-wrapper">
+                
+    <div class="article-listing-slide article-listing-slide--flexible-cta swiper-slide">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/v12ng05w/tentative-calendars-2027-nf-update-01june2026.jpg?width=630&amp;height=412&amp;v=1dcf1ab7dff7eb0');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/v12ng05w/tentative-calendars-2027-nf-update-01june2026.jpg" title="National Team Calendar 2027"></a>
+                    </div>
+
+
+    </div>
+    <div class="article-listing-slide article-listing-slide--flexible-cta swiper-slide">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/k4nd3vq5/ec-2027-02july26.jpg?width=630&amp;height=412&amp;v=1dd0a344ec6a000');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/3yxfmh4e/ec-2027-02july26.pdf" title="CEV European Cups 2027 Calendar"></a>
+                    </div>
+
+
+    </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE END -->
+
+    <div class="container u-hidden lg:u-block">
+        <div class="row">
+            <div class="col-6">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/rdefsljn/tentative-calendars-2028-nf-upgrade-01dec2025.jpg?width=630&amp;height=412&amp;v=1dc62c00533dc80');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/c5dkvi10/tentative-calendars-2028-nf-upgrade-01dec2025.pdf" title="TTentative Calendar National Team Competitions 2028"></a>
+                    </div>
+
+
+            </div>
+            <div class="col-6">
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE -->
+    <div class="container">
+        <div class="article-listing--mobile lg:u-hidden u-overflow-hidden" data-require="./src/components/article-listing">
+            
+<div class="u-absolute u-m-5 u-pin-l u-pin-t u-pin-r u-flex u-justify-between">
+    <div class="u-inline-block u-mr-1">
+        <div class="swiper-pagination u-text-left u-relative u-gap-x-2"></div>
+    </div>
+
+    <div class="article-listing__swipe-prompt u-font-bold u-p-2 u-rounded u-shadow u-select-none u-text-white u-z-10">
+        <div class="u-flex">
+            Swipe for more…
+            <svg class="icon feather-icon u-ml-2 animation-shake-2px" role="img">
+                <title>Right arrow</title>
+                <use xlink:href="/assets/img/sprite/symbols.svg#symbol-arrow-right-circle"></use>
+            </svg>
+        </div>
+    </div>
+</div>
+            <div class="swiper-wrapper">
+                
+    <div class="article-listing-slide article-listing-slide--flexible-cta swiper-slide">
+
+
+                    <div class="content-card--flexible-cta content-card--full u-bg-navy u-h-full u-aspect-ratio-304/199 u-text-white u-relative u-scrim-t-3/4 u-overflow-hidden content-card__image" style="background-image: url('https://webmedia.prod.cev.eu/media/rdefsljn/tentative-calendars-2028-nf-upgrade-01dec2025.jpg?width=630&amp;height=412&amp;v=1dc62c00533dc80');">
+                            <a class="u-block u-absolute u-w-full u-h-full u-z-50 u-inset-0" href="https://webmedia.prod.cev.eu/media/c5dkvi10/tentative-calendars-2028-nf-upgrade-01dec2025.pdf" title="TTentative Calendar National Team Competitions 2028"></a>
+                    </div>
+
+
+    </div>
+    <div class="article-listing-slide article-listing-slide--flexible-cta swiper-slide">
+    </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE END -->
+    </div>
 
 
 
