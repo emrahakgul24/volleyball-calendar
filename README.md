@@ -51,6 +51,24 @@ the same event ID across refreshes, so time changes update the existing event in
 
 **One-time setup:** in the repository's *Settings → Pages*, set *Source* to **GitHub Actions**.
 
+## Visitor statistics
+
+The page can count visitors with [GoatCounter](https://www.goatcounter.com), a free, open-source analytics
+service that sets no cookies and stores no personal data, so no consent banner is needed. It's off until you
+give it a site code:
+
+1. Sign up at [goatcounter.com/signup](https://www.goatcounter.com/signup) and pick a code, e.g.
+   `voleybol-takvim`. Your dashboard is then `https://voleybol-takvim.goatcounter.com`.
+2. In this repository's *Settings → Secrets and variables → Actions → Variables*, add a variable
+   `GOATCOUNTER_CODE` with that code. The next run of the workflow (within 3 hours, or run it by hand) adds the
+   counter to the page.
+
+The dashboard shows page views, unique visitors, referrers, countries, browsers and languages. Each press of a
+subscribe button is also counted, as an event named `subscribe/<button>/<feed>` (e.g. `subscribe/apple/sultanlar`),
+which is the closest available signal for how many people subscribe. Downloads of the `.ics` feeds themselves
+can't be counted: GitHub Pages serves them directly and offers no access logs, and calendar apps fetch them every
+few hours anyway, so fetches wouldn't map to people.
+
 ## Adding or correcting a match by hand
 
 Add entries to `data/manual.json` in the same format as `data/matches.json`. An entry with the same `id` as a

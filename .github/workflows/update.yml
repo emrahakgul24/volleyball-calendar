@@ -53,6 +53,8 @@ jobs:
           git push
 
       - name: Build feeds and page
+        env:
+          GOATCOUNTER_CODE: ${{ vars.GOATCOUNTER_CODE }}  # visitor counting; off while unset (see README)
         run: python scripts/build.py --out site
 
       - uses: actions/upload-pages-artifact@v3

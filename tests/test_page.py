@@ -172,3 +172,36 @@ def test_turkish_browsers_and_lang_parameter_default_to_turkish(site: Site, brow
     assert en.locator("h2").first.inner_text() == "Takvimler"
     for pg in (tr, en):
         pg.context.close()
+
+
+def test_no_analytics_unless_configured(site: Site) -> None:
+    assert "gc.zgo.at" not in (site[0] / "index.html").read_text(encoding="utf-8")
+
+
+def test_analytics_script_when_configured(tmp_path: Path) -> None:
+    build.build(tmp_path, sorted(matches(), key=lambda m: m.sort_key), datetime(2026, 11, 14, 12, tzinfo=timezone.utc),
+                "my-site")
+    page_html = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert ('<script data-goatcounter="https://my-site.goatcounter.com/count" '
+            'async src="https://gc.zgo.at/count.js"></script>') in page_html
+    with pytest.raises(ValueError):
+        build.analytics('x" onload="alert(1)')
+
+
+def test_subscribe_buttons_are_counted(site: Site, browser: Browser) -> None:
+    pg = browser.new_context(locale="en-US").new_page()
+    # Stand-in for GoatCounter's script, which records what the page asks it to count.
+    pg.add_init_script("window.counted = []; window.goatcounter = { count: o => window.counted.push(o) };")
+    pg.route("**/*", lambda r: r.continue_() if r.request.url.startswith("http://127.0.0.1") else r.abort())
+    pg.goto(site[1])
+    pg.context.grant_permissions(["clipboard-read", "clipboard-write"])
+    pg.click('.feed[data-feed="sultanlar"] button[data-action="copy"]')
+    pg.click('.feed[data-feed="europe"] a[data-action="google"]')
+    pg.select_option("#team", "team-aras-kargo")
+    pg.click('.team-picker a[data-action="outlook"]')
+    pg.click('.lang button[data-lang="tr"]')  # not a subscribe button
+    counted = pg.evaluate("window.counted")
+    assert [c["path"] for c in counted] == [
+        "subscribe/copy/sultanlar", "subscribe/google/europe", "subscribe/outlook/team-aras-kargo"]
+    assert all(c["event"] is True for c in counted)
+    pg.context.close()
