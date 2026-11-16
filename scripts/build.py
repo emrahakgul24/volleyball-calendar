@@ -8,6 +8,8 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
+import re
 import shutil
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -112,7 +114,7 @@ def calendar(name: str, desc: str, matches: list[Match], stamp: str, with_compet
 
 # --- site --------------------------------------------------------------------
 
-def build(out: Path, matches: list[Match], now: datetime) -> BuildResult:
+def build(out: Path, matches: list[Match], now: datetime, goatcounter: str = "") -> BuildResult:
     if out.exists():
         shutil.rmtree(out)
     (out / "feeds").mkdir(parents=True)
@@ -138,14 +140,14 @@ def build(out: Path, matches: list[Match], now: datetime) -> BuildResult:
         write(f"team-{slugify(team)}", team, f"Every {team} match: league, cups and Europe.", ms, "team", True)
 
     upcoming = [m for m in matches if m.date >= now.astimezone(ISTANBUL).date().isoformat()][:40]
-    page = render_page(feeds, upcoming, now)
+    page = render_page(feeds, upcoming, now, goatcounter)
     (out / "index.html").write_text(page, encoding="utf-8")
     (out / ".nojekyll").write_text("")
     (out / "feeds.json").write_text(json.dumps(feeds, ensure_ascii=False, indent=1), encoding="utf-8")
     return {"feeds": len(feeds), "matches": len(matches)}
 
 
-def render_page(feeds: list[Feed], upcoming: list[Match], now: datetime) -> str:
+def render_page(feeds: list[Feed], upcoming: list[Match], now: datetime, goatcounter: str = "") -> str:
     """Fill the template. Every generated text carries its Turkish version in data-tr; the page's script
     swaps between the two when the reader picks a language."""
     template = (ROOT / "site_template" / "index.html").read_text(encoding="utf-8")
@@ -202,7 +204,20 @@ def render_page(feeds: list[Feed], upcoming: list[Match], now: datetime) -> str:
             .replace("{{TEAM_OPTIONS}}", team_options)
             .replace("{{UPCOMING}}", "\n".join(rows) or empty)
             .replace("{{UPDATED_TR}}", e(stamp))  # inside an attribute, so escaped
-            .replace("{{UPDATED}}", stamp))
+            .replace("{{UPDATED}}", stamp)
+            .replace("{{ANALYTICS}}", analytics(goatcounter)))
+
+
+def analytics(code: str) -> str:
+    """GoatCounter's script tag for the site code `code` (https://<code>.goatcounter.com), or nothing if unset.
+
+    GoatCounter sets no cookies and stores no personal data, so the page needs no consent banner."""
+    if not code:
+        return ""
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", code):
+        raise ValueError(f"not a GoatCounter site code: {code!r}")
+    return (f'<script data-goatcounter="https://{code}.goatcounter.com/count" '
+            'async src="https://gc.zgo.at/count.js"></script>')
 
 
 def main() -> int:
@@ -211,7 +226,10 @@ def main() -> int:
     args = ap.parse_args()
     # data/manual.json holds hand-added matches (same format); an entry with a scraped match's id replaces it.
     by_id = {m.id: m for m in load(DATA / "matches.json") + load(DATA / "manual.json")}
-    result = build(Path(args.out), sorted(by_id.values(), key=lambda m: m.sort_key), datetime.now(timezone.utc))
+    # Visitor counting is on when the GOATCOUNTER_CODE repository variable is set (see README).
+    goatcounter = os.environ.get("GOATCOUNTER_CODE", "").strip().lower()
+    result = build(Path(args.out), sorted(by_id.values(), key=lambda m: m.sort_key), datetime.now(timezone.utc),
+                   goatcounter)
     print(f"built {result['feeds']} feeds from {result['matches']} matches -> {args.out}")
     return 0
 

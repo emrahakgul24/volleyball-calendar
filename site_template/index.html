@@ -214,6 +214,18 @@
     btn.textContent = lang === 'tr' ? 'Kopyalandı' : 'Copied'; btn.classList.add('copied');
     setTimeout(() => { btn.textContent = label; btn.classList.remove('copied'); }, 1500);
   });
+
+  // --- analytics -------------------------------------------------------------
+  // With GoatCounter on (see README), each subscribe button press is counted as an event named
+  // "subscribe/<button>/<feed>", e.g. subscribe/apple/sultanlar, next to the page views.
+  document.addEventListener('click', e => {
+    const el = e.target.closest('[data-action]');
+    const box = el && el.closest('.feed');
+    const gc = window.goatcounter;
+    if (!box || !box.dataset.feed || !gc || typeof gc.count !== 'function') return;
+    gc.count({ path: `subscribe/${el.dataset.action}/${box.dataset.feed}`, title: box.dataset.name, event: true });
+  });
 </script>
+{{ANALYTICS}}
 </body>
 </html>
