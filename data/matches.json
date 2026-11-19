@@ -1813,7 +1813,7 @@
   "home": "Aras Kargo",
   "away": "Fenerbahçe Medicana",
   "date": "2026-11-21",
-  "time": "15:00",
+  "time": null,
   "venue": "TVF Atatürk Voleybol Spor Kompleksi",
   "city": "İzmir",
   "tv": "TVF Voleybol TV",
@@ -2173,6 +2173,23 @@
   "result": "",
   "teams": [
    "Aras Kargo"
+  ]
+ },
+ {
+  "id": "tvf-europe-2026-12-02-eczacibasi-peron-istanbul-turan-tovuz-aze",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool D",
+  "home": "Eczacıbaşı Peron İstanbul",
+  "away": "Turan Tovuz (AZE)",
+  "date": "2026-12-02",
+  "time": "19:30",
+  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "city": "İstanbul",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
   ]
  },
  {
@@ -2743,12 +2760,12 @@
   "feed": "europe",
   "competition": "CEV Champions League",
   "stage": "Pool D",
-  "home": "Eczacıbaşı Peron İstanbul",
-  "away": "Turan Tovuz (AZE)",
+  "home": "Turan Tovuz (AZE)",
+  "away": "Eczacıbaşı Peron İstanbul",
   "date": "2027-01-12",
   "time": "18:00",
   "venue": "Eczacıbaşı Spor Salonu",
-  "city": "İstanbul",
+  "city": "Azerbeycan",
   "tv": "",
   "result": "",
   "teams": [
@@ -2838,6 +2855,23 @@
   "result": "",
   "teams": [
    "Eczacıbaşı Peron İstanbul"
+  ]
+ },
+ {
+  "id": "tvf-europe-2027-01-27-asterix-avo-beveren-bel-vakifbank",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool A",
+  "home": "Asterix Avo Beveren (BEL)",
+  "away": "Vakıfbank",
+  "date": "2027-01-27",
+  "time": "22:00",
+  "venue": "Beveren-Topsporthal",
+  "city": "Belçika",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Vakıfbank"
   ]
  },
  {
