@@ -1922,10 +1922,10 @@
   "away": "Vasas Obuda Budapest (HUN)",
   "date": "2026-11-24",
   "time": "19:00",
-  "venue": "Burhan Felek Voleybol Salonu",
+  "venue": "Burhan Felek Vestel Voleybol Salonu",
   "city": "İstanbul",
   "tv": "TRT Spor Yıldız",
-  "result": "",
+  "result": "3-0",
   "teams": [
    "Fenerbahçe Medicana"
   ]
@@ -1942,7 +1942,7 @@
   "venue": "Eczacıbaşı Spor Salonu",
   "city": "İstanbul",
   "tv": "Tabii Spor",
-  "result": "",
+  "result": "3-0",
   "teams": [
    "Eczacıbaşı Peron İstanbul"
   ]
@@ -1959,7 +1959,7 @@
   "venue": "Herceg Novi-Sportski Sentar Igalo",
   "city": "Karadağ",
   "tv": "",
-  "result": "",
+  "result": "0-3",
   "teams": [
    "Zeren Spor"
   ]
@@ -1982,23 +1982,6 @@
   ]
  },
  {
-  "id": "tvf-2026-cev-challenge-cup-chcw-69",
-  "feed": "europe",
-  "competition": "CEV Challenge Cup",
-  "stage": "Round of 32",
-  "home": "Zaon Kifissia 1962 (GRE)",
-  "away": "Aras Kargo",
-  "date": "2026-11-25",
-  "time": "20:00",
-  "venue": "Atina-Zirineio Sport Hall",
-  "city": "Yunanistan",
-  "tv": "",
-  "result": "",
-  "teams": [
-   "Aras Kargo"
-  ]
- },
- {
   "id": "tvf-2026-cev-champions-league-clvw-61",
   "feed": "europe",
   "competition": "CEV Champions League",
@@ -2013,6 +1996,23 @@
   "result": "",
   "teams": [
    "Galatasaray Daikin"
+  ]
+ },
+ {
+  "id": "tvf-europe-2026-11-25-zaon-kifissia-1962-gre-aras-kargo",
+  "feed": "europe",
+  "competition": "CEV Challenge Cup",
+  "stage": "Round of 32",
+  "home": "Zaon Kifissia 1962 (GRE)",
+  "away": "Aras Kargo",
+  "date": "2026-11-25",
+  "time": "20:00",
+  "venue": "Atina-Zirineio Sport Hall",
+  "city": "Yunanistan",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Aras Kargo"
   ]
  },
  {
@@ -2159,15 +2159,15 @@
   ]
  },
  {
-  "id": "tvf-2026-cev-challenge-cup-chcw70",
+  "id": "tvf-2026-cev-challenge-cup-chcw-69",
   "feed": "europe",
   "competition": "CEV Challenge Cup",
   "stage": "Round of 32",
   "home": "Aras Kargo",
   "away": "Zaon Kifissia 1962 (GRE)",
   "date": "2026-12-02",
-  "time": "18:00",
-  "venue": "Atatürk Voleybol Salonu",
+  "time": "19:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
   "city": "İzmir",
   "tv": "",
   "result": "",
@@ -2176,7 +2176,7 @@
   ]
  },
  {
-  "id": "tvf-europe-2026-12-02-eczacibasi-peron-istanbul-turan-tovuz-aze",
+  "id": "tvf-2026-cev-champions-league-clvw-56",
   "feed": "europe",
   "competition": "CEV Champions League",
   "stage": "Pool D",
@@ -2184,7 +2184,7 @@
   "away": "Turan Tovuz (AZE)",
   "date": "2026-12-02",
   "time": "19:30",
-  "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
+  "venue": "Eczacıbaşı Spor Salonu",
   "city": "İstanbul",
   "tv": "",
   "result": "",
@@ -2210,6 +2210,23 @@
   ]
  },
  {
+  "id": "tvf-2026-cev-challenge-cup-chcw70",
+  "feed": "europe",
+  "competition": "CEV Challenge Cup",
+  "stage": "Round of 32",
+  "home": "Aras Kargo",
+  "away": "Zaon Kifissia 1962",
+  "date": "2026-12-03",
+  "time": "19:00",
+  "venue": "",
+  "city": "Yunanistan",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Aras Kargo"
+  ]
+ },
+ {
   "id": "tvf-2026-cev-champions-league-clvw-64",
   "feed": "europe",
   "competition": "CEV Champions League",
@@ -2218,7 +2235,7 @@
   "away": "VFB Suhl Thuringen (GER)",
   "date": "2026-12-03",
   "time": "19:00",
-  "venue": "Burhan Felek Voleybol Salonu",
+  "venue": "Burhan Felek Vestel Voleybol Salonu",
   "city": "İstanbul",
   "tv": "",
   "result": "",
@@ -2552,7 +2569,7 @@
   "away": "C.S.O. Voluntari 2005 (ROU)",
   "date": "2026-12-15",
   "time": "19:00",
-  "venue": "Burhan Felek Voleybol Salonu",
+  "venue": "Burhan Felek Vestel Voleybol Salonu",
   "city": "İstanbul",
   "tv": "",
   "result": "",
@@ -2756,23 +2773,6 @@
   ]
  },
  {
-  "id": "tvf-2026-cev-champions-league-clvw-56",
-  "feed": "europe",
-  "competition": "CEV Champions League",
-  "stage": "Pool D",
-  "home": "Turan Tovuz (AZE)",
-  "away": "Eczacıbaşı Peron İstanbul",
-  "date": "2027-01-12",
-  "time": "18:00",
-  "venue": "Eczacıbaşı Spor Salonu",
-  "city": "Azerbeycan",
-  "tv": "",
-  "result": "",
-  "teams": [
-   "Eczacıbaşı Peron İstanbul"
-  ]
- },
- {
   "id": "tvf-2026-cev-champions-league-clvw-43",
   "feed": "europe",
   "competition": "CEV Champions League",
@@ -2781,7 +2781,7 @@
   "away": "Levallois Paris Saint-Cloud (FRA)",
   "date": "2027-01-12",
   "time": "19:00",
-  "venue": "Burhan Felek Voleybol Salonu",
+  "venue": "Burhan Felek Vestel Voleybol Salonu",
   "city": "İstanbul",
   "tv": "",
   "result": "",
@@ -2804,6 +2804,23 @@
   "result": "",
   "teams": [
    "Vakıfbank"
+  ]
+ },
+ {
+  "id": "tvf-2026-cev-champions-league-clvw-52",
+  "feed": "europe",
+  "competition": "CEV Champions League",
+  "stage": "Pool D",
+  "home": "Turan Tovuz (AZE)",
+  "away": "Eczacıbaşı Peron İstanbul",
+  "date": "2027-01-13",
+  "time": "18:00",
+  "venue": "Tovuz-Olympic Hall",
+  "city": "Azerbeycan",
+  "tv": "",
+  "result": "",
+  "teams": [
+   "Eczacıbaşı Peron İstanbul"
   ]
  },
  {
@@ -2858,14 +2875,14 @@
   ]
  },
  {
-  "id": "tvf-europe-2027-01-27-asterix-avo-beveren-bel-vakifbank",
+  "id": "tvf-2026-cev-champions-league-clvw-21",
   "feed": "europe",
   "competition": "CEV Champions League",
   "stage": "Pool A",
   "home": "Asterix Avo Beveren (BEL)",
   "away": "Vakıfbank",
   "date": "2027-01-27",
-  "time": "22:00",
+  "time": "21:30",
   "venue": "Beveren-Topsporthal",
   "city": "Belçika",
   "tv": "",
@@ -2883,7 +2900,7 @@
   "away": "PGE Budowlani Lodz (POL)",
   "date": "2027-01-28",
   "time": "19:00",
-  "venue": "Burhan Felek Voleybol Salonu",
+  "venue": "Burhan Felek Vestel Voleybol Salonu",
   "city": "İstanbul",
   "tv": "",
   "result": "",
@@ -2900,7 +2917,7 @@
   "away": "Numia Vero Volley Milano (ITA)",
   "date": "2027-02-03",
   "time": "19:00",
-  "venue": "Burhan Felek Voleybol Salonu",
+  "venue": "Burhan Felek Vestel Voleybol Salonu",
   "city": "İstanbul",
   "tv": "",
   "result": "",
