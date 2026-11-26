@@ -1806,24 +1806,6 @@
   ]
  },
  {
-  "id": "tvf-sul26-le067",
-  "feed": "sultanlar",
-  "competition": "Sultanlar Ligi",
-  "stage": "Week 10",
-  "home": "Aras Kargo",
-  "away": "Fenerbahçe Medicana",
-  "date": "2026-11-21",
-  "time": null,
-  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
-  "city": "İzmir",
-  "tv": "TVF Voleybol TV",
-  "result": "",
-  "teams": [
-   "Aras Kargo",
-   "Fenerbahçe Medicana"
-  ]
- },
- {
   "id": "tvf-sul26-le066",
   "feed": "sultanlar",
   "competition": "Sultanlar Ligi",
@@ -1976,7 +1958,7 @@
   "venue": "Vakıfbank Spor Sarayı",
   "city": "İstanbul",
   "tv": "TRT Spor",
-  "result": "",
+  "result": "3-0",
   "teams": [
    "Vakıfbank"
   ]
@@ -1993,26 +1975,9 @@
   "venue": "Lodz-Lodz Sport Arena",
   "city": "Polonya",
   "tv": "Tabii Spor",
-  "result": "",
+  "result": "1-3",
   "teams": [
    "Galatasaray Daikin"
-  ]
- },
- {
-  "id": "tvf-europe-2026-11-25-zaon-kifissia-1962-gre-aras-kargo",
-  "feed": "europe",
-  "competition": "CEV Challenge Cup",
-  "stage": "Round of 32",
-  "home": "Zaon Kifissia 1962 (GRE)",
-  "away": "Aras Kargo",
-  "date": "2026-11-25",
-  "time": "20:00",
-  "venue": "Atina-Zirineio Sport Hall",
-  "city": "Yunanistan",
-  "tv": "",
-  "result": "",
-  "teams": [
-   "Aras Kargo"
   ]
  },
  {
@@ -2070,24 +2035,6 @@
   ]
  },
  {
-  "id": "tvf-sul26-le075",
-  "feed": "sultanlar",
-  "competition": "Sultanlar Ligi",
-  "stage": "Week 11",
-  "home": "Manisa Büyükşehir Belediye Spor",
-  "away": "Aras Kargo",
-  "date": "2026-11-29",
-  "time": "16:00",
-  "venue": "Muradiye Spor Salonu",
-  "city": "Manisa",
-  "tv": "TVF Voleybol TV",
-  "result": "",
-  "teams": [
-   "Manisa Büyükşehir Belediye Spor",
-   "Aras Kargo"
-  ]
- },
- {
   "id": "tvf-sul26-le076",
   "feed": "sultanlar",
   "competition": "Sultanlar Ligi",
@@ -2142,6 +2089,24 @@
   ]
  },
  {
+  "id": "tvf-sul26-le075",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 11",
+  "home": "Manisa Büyükşehir Belediye Spor",
+  "away": "Aras Kargo",
+  "date": "2026-11-29",
+  "time": null,
+  "venue": "Muradiye Spor Salonu",
+  "city": "Manisa",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Manisa Büyükşehir Belediye Spor",
+   "Aras Kargo"
+  ]
+ },
+ {
   "id": "tvf-2026-cev-champions-league-clvw-15",
   "feed": "europe",
   "competition": "CEV Champions League",
@@ -2167,8 +2132,8 @@
   "away": "Zaon Kifissia 1962 (GRE)",
   "date": "2026-12-02",
   "time": "19:00",
-  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
-  "city": "İzmir",
+  "venue": "Atina-Zirineio Sport Hall",
+  "city": "Yunanistan",
   "tv": "",
   "result": "",
   "teams": [
@@ -2214,11 +2179,11 @@
   "feed": "europe",
   "competition": "CEV Challenge Cup",
   "stage": "Round of 32",
-  "home": "Aras Kargo",
-  "away": "Zaon Kifissia 1962",
+  "home": "Zaon Kifissia 1962 (GRE)",
+  "away": "Aras Kargo",
   "date": "2026-12-03",
   "time": "19:00",
-  "venue": "",
+  "venue": "Atina-Zirineio Sport Hall",
   "city": "Yunanistan",
   "tv": "",
   "result": "",
@@ -2279,24 +2244,6 @@
   ]
  },
  {
-  "id": "tvf-sul26-le083",
-  "feed": "sultanlar",
-  "competition": "Sultanlar Ligi",
-  "stage": "Week 12",
-  "home": "Aras Kargo",
-  "away": "Beşiktaş",
-  "date": "2026-12-06",
-  "time": "16:00",
-  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
-  "city": "İzmir",
-  "tv": "TVF Voleybol TV",
-  "result": "",
-  "teams": [
-   "Aras Kargo",
-   "Beşiktaş"
-  ]
- },
- {
   "id": "tvf-sul26-le081",
   "feed": "sultanlar",
   "competition": "Sultanlar Ligi",
@@ -2348,6 +2295,24 @@
   "teams": [
    "Nilüfer Belediyespor Eker",
    "Göztepe Yuppo"
+  ]
+ },
+ {
+  "id": "tvf-sul26-le083",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 12",
+  "home": "Aras Kargo",
+  "away": "Beşiktaş",
+  "date": "2026-12-07",
+  "time": "16:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Aras Kargo",
+   "Beşiktaş"
   ]
  },
  {
@@ -2755,6 +2720,24 @@
   ]
  },
  {
+  "id": "tvf-sul26-le067",
+  "feed": "sultanlar",
+  "competition": "Sultanlar Ligi",
+  "stage": "Week 10",
+  "home": "Aras Kargo",
+  "away": "Fenerbahçe Medicana",
+  "date": "2026-12-22",
+  "time": "13:00",
+  "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+  "city": "İzmir",
+  "tv": "TVF Voleybol TV",
+  "result": "",
+  "teams": [
+   "Aras Kargo",
+   "Fenerbahçe Medicana"
+  ]
+ },
+ {
   "id": "tvf-sul26-le088",
   "feed": "sultanlar",
   "competition": "Sultanlar Ligi",
@@ -2762,7 +2745,7 @@
   "home": "Eczacıbaşı Peron İstanbul",
   "away": "Türk Hava Yolları",
   "date": "2026-12-22",
-  "time": "19:00",
+  "time": "15:00",
   "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu",
   "city": "İstanbul",
   "tv": "TVF Voleybol TV",
